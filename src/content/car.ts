@@ -51,7 +51,12 @@ export const car = {
   } satisfies Record<string, ImageCredit>,
 
   colors: [
-    { role: 'exterior', name: 'Phantom Purple', hex: '#4a3564' },
+    {
+      role: 'exterior',
+      name: 'Phantom Purple',
+      hex: '#4a3564',
+      photo: '/images/xpeng-l03-exterior-phantom-purple.png',
+    },
     {
       role: 'interior',
       name: 'Light Gray',

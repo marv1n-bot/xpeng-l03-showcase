@@ -12,8 +12,13 @@ export function ColorSwatches({ colors }: { colors: ColorOption[] }) {
             className="overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03]"
           >
             {color.photo && (
-              <div className="relative h-48 w-full">
-                <Image src={color.photo} alt={`${color.name} ${color.role}`} fill className="object-cover" />
+              <div className="relative h-48 w-full bg-ink">
+                <Image
+                  src={color.photo}
+                  alt={`${color.name} ${color.role}`}
+                  fill
+                  className={color.role === 'exterior' ? 'object-contain p-4' : 'object-cover'}
+                />
               </div>
             )}
             <div className="flex items-center gap-5 p-6">
