@@ -16,11 +16,15 @@ new specs:
 
 The page re-renders automatically; no other files need to change.
 
-## Adding real photography
+## Photography
 
-The hero currently uses a gradient placeholder (`src/components/Hero.tsx`) since
-no product photography is wired in yet. Drop images into `public/images/` and
-swap the gradient div for a `next/image` render once available.
+Hero and interior imagery in `public/images/` are official Xpeng product
+renders (sourced from xpeng.com), used here for a personal, non-commercial fan
+site with credit given in the footer and hero caption. Xpeng's site carries a
+blanket "COPYRIGHT@XPENG INC." notice — no explicit third-party reuse license
+was found — so this follows common fan-site norms (attribution + non-commercial
++ "not affiliated" disclaimer) rather than a granted license. Swap or remove
+images in `src/content/car.ts` (`car.images`) if that risk tolerance changes.
 
 ## Local development
 

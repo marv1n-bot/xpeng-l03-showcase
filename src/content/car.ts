@@ -21,6 +21,13 @@ export interface ColorOption {
   role: 'exterior' | 'interior';
   name: string;
   hex: string;
+  photo?: string;
+}
+
+export interface ImageCredit {
+  src: string;
+  alt: string;
+  credit: string;
 }
 
 export const car = {
@@ -30,9 +37,27 @@ export const car = {
   tagline: 'Dual-motor AWD. 285 kW. Zero compromise.',
   ownerNote: "Niels's L03 — European delivery arriving Q4 2026.",
 
+  images: {
+    heroExterior: {
+      src: '/images/xpeng-l03-exterior-phantom-purple.png',
+      alt: 'Xpeng L03 in Phantom Purple, side profile studio render',
+      credit: 'Image: Xpeng Motors',
+    },
+    interior: {
+      src: '/images/xpeng-l03-interior-light-gray.jpg',
+      alt: 'Xpeng L03 light gray interior, cabin view',
+      credit: 'Image: Xpeng Motors',
+    },
+  } satisfies Record<string, ImageCredit>,
+
   colors: [
     { role: 'exterior', name: 'Phantom Purple', hex: '#4a3564' },
-    { role: 'interior', name: 'Light Gray', hex: '#c7c5c2' },
+    {
+      role: 'interior',
+      name: 'Light Gray',
+      hex: '#c7c5c2',
+      photo: '/images/xpeng-l03-interior-light-gray.jpg',
+    },
   ] satisfies ColorOption[],
 
   heroStats: [

@@ -7,6 +7,7 @@ export function SiteFooter({ car }: { car: Car }) {
         {car.make} {car.model} {car.trim} — fan showcase site, not affiliated with {car.make} Motors.
       </p>
       <p className="mt-1">Specs sourced from public {car.make} materials and subject to change.</p>
+      <p className="mt-1">Vehicle photography courtesy of {car.make} Motors press/product materials.</p>
     </footer>
   );
 }

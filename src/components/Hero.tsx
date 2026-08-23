@@ -1,14 +1,23 @@
+import Image from 'next/image';
 import type { Car } from '@/content/car';
 
 export function Hero({ car }: { car: Car }) {
   return (
     <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden px-6 pb-16 pt-32 sm:px-10 sm:pb-24 lg:px-16">
-      {/* Phantom Purple gradient backdrop — swap for a real hero photo by
-          dropping one into /public/images and rendering it here instead. */}
       <div className="absolute inset-0 -z-10 bg-ink">
         <div className="absolute -top-1/4 left-1/2 h-[80vh] w-[80vh] -translate-x-1/2 rounded-full bg-phantom opacity-40 blur-[120px]" />
         <div className="absolute bottom-0 right-0 h-[60vh] w-[60vh] rounded-full bg-phantom-light opacity-20 blur-[140px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,transparent_0%,var(--color-ink)_75%)]" />
+      </div>
+
+      <div className="pointer-events-none absolute inset-x-0 top-[6%] -z-[5] h-[22vh] opacity-90 [mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)] sm:h-[38vh] sm:[mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)] lg:h-[44vh]">
+        <Image
+          src={car.images.heroExterior.src}
+          alt={car.images.heroExterior.alt}
+          fill
+          priority
+          className="object-contain object-center sm:object-right"
+        />
       </div>
 
       <p className="font-display text-sm uppercase tracking-[0.3em] text-cloud-gray/80">
@@ -29,6 +38,8 @@ export function Hero({ car }: { car: Car }) {
           </div>
         ))}
       </div>
+
+      <p className="relative mt-8 text-xs text-cloud-gray/30">{car.images.heroExterior.credit}</p>
     </section>
   );
 }
