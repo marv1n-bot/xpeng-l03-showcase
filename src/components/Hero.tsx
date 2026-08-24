@@ -14,7 +14,8 @@ export function Hero({ car }: { car: Car }) {
           alt={car.images.heroExterior.alt}
           fill
           priority
-          className="object-contain object-center drop-shadow-[0_50px_70px_rgba(0,0,0,0.55)]"
+          className="object-cover"
+          style={{ objectPosition: '55% 68%' }}
         />
       </div>
 
