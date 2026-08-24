@@ -39,9 +39,9 @@ export const car = {
 
   images: {
     heroExterior: {
-      src: '/images/xpeng-l03-exterior-phantom-purple.png',
-      alt: 'Xpeng L03 in Phantom Purple, side profile studio render',
-      credit: 'Image: Xpeng Motors',
+      src: '/images/xpeng-l03-hero-street.jpg',
+      alt: 'Xpeng L03 in Phantom Purple, parked streetside profile shot',
+      credit: 'Image: CarNewsChina',
     },
     interior: {
       src: '/images/xpeng-l03-interior-light-gray.jpg',
