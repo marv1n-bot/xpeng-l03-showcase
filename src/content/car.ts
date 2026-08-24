@@ -55,7 +55,7 @@ export const car = {
       role: 'exterior',
       name: 'Phantom Purple',
       hex: '#4a3564',
-      photo: '/images/xpeng-l03-exterior-phantom-purple.png',
+      photo: '/images/xpeng-l03-exterior-colorway.jpg',
     },
     {
       role: 'interior',
