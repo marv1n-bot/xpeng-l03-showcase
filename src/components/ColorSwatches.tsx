@@ -17,7 +17,7 @@ export function ColorSwatches({ colors }: { colors: ColorOption[] }) {
                   src={color.photo}
                   alt={`${color.name} ${color.role}`}
                   fill
-                  className={color.role === 'exterior' ? 'object-contain p-4' : 'object-cover'}
+                  className="object-cover"
                 />
               </div>
             )}
