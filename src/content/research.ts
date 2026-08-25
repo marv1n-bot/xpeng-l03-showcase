@@ -1,7 +1,7 @@
 /**
  * Content for the /research page — ongoing tracking of L03 market news,
  * sentiment, cross-market specs, and unconfirmed reports. Kept separate
- * from car.ts (which is the fixed spec sheet for Niels's own car).
+ * from car.ts (which is the fixed spec sheet for this configuration).
  */
 
 export interface SentimentPoint {
@@ -138,7 +138,7 @@ export const research = {
   specsByMarket: [
     {
       variant: 'AWD Performance Ultra',
-      market: 'Europe (Niels’s spec)',
+      market: 'Europe',
       power: '285 kW / 388 hp, 431 Nm',
       battery: '71.2 kWh',
       range: '440 km WLTP',
@@ -184,7 +184,7 @@ export const research = {
   ] satisfies SpecRow[],
 
   marketNote:
-    "AWD is currently a Europe-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so the AWD Performance Ultra Niels ordered isn't available to Chinese buyers.",
+    "AWD is currently a Europe-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so the AWD Performance Ultra trim isn't available to Chinese buyers.",
 
   design: {
     headline:
