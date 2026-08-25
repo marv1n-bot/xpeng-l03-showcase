@@ -18,7 +18,7 @@ export function Hero({ car }: { car: Car }) {
         />
       </div>
 
-      <div className="relative px-6 pb-16 sm:px-10 sm:pb-24 lg:px-16">
+      <div className="relative px-6 pb-16 pt-10 sm:px-10 sm:pb-24 sm:pt-14 lg:px-16">
         <p className="font-display text-sm uppercase tracking-[0.3em] text-cloud-gray/80">
           {car.make} · {car.trim}
         </p>
