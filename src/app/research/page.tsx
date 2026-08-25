@@ -98,6 +98,52 @@ export default function ResearchPage() {
 
       <section className="border-t border-white/10 bg-white/[0.02] px-6 py-16 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-4xl">
+          <h2 className="font-display text-2xl font-medium sm:text-3xl">Electronics, software &amp; ADAS</h2>
+          <p className="mt-2 max-w-xl text-cloud-gray/70">{research.electronics.headline}</p>
+          <dl className="mt-8 grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            {research.electronics.facts.map((fact) => (
+              <div key={fact.label} className="border-b border-white/10 pb-4">
+                <dt className="text-xs uppercase tracking-wide text-cloud-gray/60">{fact.label}</dt>
+                <dd className="mt-1 font-display text-xl font-medium">{fact.value}</dd>
+                {fact.note && <dd className="text-sm text-cloud-gray/50">{fact.note}</dd>}
+              </div>
+            ))}
+          </dl>
+          <p className="mt-8 max-w-2xl text-xs text-cloud-gray/50">{research.electronics.caveat}</p>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="font-display text-2xl font-medium sm:text-3xl">Launch reviews &amp; driving tests</h2>
+          <p className="mt-2 max-w-xl text-cloud-gray/70">{research.reviews.headline}</p>
+          <ol className="mt-8 space-y-6">
+            {research.reviews.items.map((item) => (
+              <li key={item.url} className="border-b border-white/10 pb-6">
+                <p className="text-xs uppercase tracking-wide text-cloud-gray/50">
+                  {item.date} · {item.kind}
+                </p>
+                <p className="mt-1 font-display text-lg font-medium">
+                  {item.outlet} — {item.author}
+                </p>
+                <p className="mt-1 text-sm text-cloud-gray/70">{item.summary}</p>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-2 inline-block text-xs text-cloud-gray/50 underline underline-offset-4 hover:text-cloud-gray"
+                >
+                  Read the full piece
+                </a>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-8 max-w-2xl text-xs text-cloud-gray/50">{research.reviews.rangeNote}</p>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 bg-white/[0.02] px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-4xl">
           <h2 className="font-display text-2xl font-medium sm:text-3xl">Rumors &amp; what&apos;s not confirmed yet</h2>
           <ul className="mt-8 space-y-6">
             {research.rumors.map((rumor) => (
