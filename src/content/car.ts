@@ -35,7 +35,7 @@ export const car = {
   model: 'L03',
   trim: 'AWD Performance Ultra',
   tagline: 'Dual-motor AWD. 285 kW. Zero compromise.',
-  ownerNote: "Niels's L03 — European delivery arriving Q4 2026.",
+  ownerNote: 'European delivery arriving Q4 2026.',
 
   images: {
     heroExterior: {
