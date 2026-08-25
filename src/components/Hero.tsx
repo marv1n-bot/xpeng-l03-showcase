@@ -14,8 +14,7 @@ export function Hero({ car }: { car: Car }) {
           alt={car.images.heroExterior.alt}
           fill
           priority
-          className="object-cover"
-          style={{ objectPosition: '55% 68%' }}
+          className="object-cover object-[70%_68%] sm:object-[55%_90%]"
         />
       </div>
 
