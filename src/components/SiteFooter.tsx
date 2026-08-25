@@ -8,6 +8,9 @@ export function SiteFooter({ car }: { car: Car }) {
       </p>
       <p className="mt-1">Specs sourced from public {car.make} materials and subject to change.</p>
       <p className="mt-1">Vehicle photography courtesy of {car.make} Motors press/product materials.</p>
+      <p className="mt-4 text-xs text-cloud-gray/30">
+        Content researched and drafted with AI assistance, human-reviewed before publishing.
+      </p>
     </footer>
   );
 }
