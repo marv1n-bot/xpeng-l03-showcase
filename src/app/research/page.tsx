@@ -198,6 +198,9 @@ export default function ResearchPage() {
             ← Back to L03 showcase
           </Link>
         </p>
+        <p className="mt-4 text-xs text-cloud-gray/30">
+          Content researched and drafted with AI assistance, human-reviewed before publishing.
+        </p>
       </footer>
     </main>
   );
