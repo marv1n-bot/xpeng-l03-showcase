@@ -184,6 +184,76 @@ export const research = {
   marketNote:
     "AWD is currently a Europe-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so the AWD Performance Ultra Niels ordered isn't available to Chinese buyers.",
 
+  design: {
+    headline:
+      "Xpeng's VP of Design Center, JuanMa Lopez — previously Ferrari's Head of Exterior Design, with credits including the LaFerrari, SF90 Stradale and Ferrari Monza SP — joined Xpeng in June 2024 and led the L03 as his first production vehicle in the role. It's pitched as a coupe-SUV: a low, aerodynamic fastback silhouette rather than a conventional crossover shape.",
+    facts: [
+      {
+        label: 'Drag coefficient',
+        value: '0.228 Cd',
+        note: 'Includes an active grille shutter among its aero details',
+      },
+      {
+        label: 'Dimensions (L×W×H)',
+        value: '4,650 × 1,920 × 1,600 mm',
+        note: 'Wheelbase 2,850 mm',
+      },
+      {
+        label: 'Turning circle',
+        value: '10.5 m',
+      },
+      {
+        label: 'Curb weight',
+        value: '2,115 kg (AWD Performance, per independent EV-spec databases)',
+        note:
+          'A Gemini-generated summary circulating separately puts this at 1,940 kg (2,040 kg with driver) — notably lower. That figure has no citation of its own and conflicts with what EV-spec databases report for this trim, so treat both as unreconciled rather than picking one.',
+      },
+      {
+        label: 'Towing capacity',
+        value: '1,500 kg braked / 750 kg unbraked',
+      },
+      {
+        label: 'Braking distance (100–0 km/h)',
+        value: '35.6 m (reported)',
+        note:
+          'Single-source figure from the same ungrounded Gemini summary — no outlet has published an independent braking test yet, so treat as unverified.',
+      },
+      {
+        label: 'Drive modes',
+        value: 'ECO, Comfort, Sport, Individual, Snow, Slippery — plus Escape Mode on AWD',
+        note: 'Escape Mode manages per-wheel brake pressure and motor torque to free the car from mud, sand or snow',
+      },
+      {
+        label: 'Battery cells',
+        value: 'CALB-supplied LFP',
+        note: '71.2 kWh pack on the AWD Performance Ultra',
+      },
+      {
+        label: 'DC fast charging',
+        value: 'Up to 236 kW peak',
+        note: '10–80% in roughly 18–20 minutes per outlet reporting',
+      },
+      {
+        label: 'Cargo & frunk volume',
+        value: '367–539 L rear / 44–102 L frunk, depending on source',
+        note:
+          'Wide spread across outlets, most likely reflecting different measurement conventions (VDA box method vs. fill-to-window liquid volume) rather than a real difference between cars — not fully reconciled.',
+      },
+      {
+        label: 'Interior comfort',
+        value: '14-point massage front seats, 20-speaker 1,000W+ audio, dual 50W wireless charging pads',
+        note: 'Feature set independently confirmed',
+      },
+      {
+        label: 'Panoramic roof',
+        value: 'Dual-layer silver-coated glass, blocks ~99.9% of UV',
+        note: 'Panel size reported at 1.31 m² in a single ungrounded source — the feature is confirmed independently, the exact area is not',
+      },
+    ] satisfies ElectronicsFact[],
+    caveat:
+      "Design and spec details above blend independently sourced reporting with a Gemini-generated summary that arrived without its own citations. Where the two disagree (curb weight, cargo/frunk volume), both figures are shown rather than picking a winner; single-source claims from the Gemini summary (braking distance, roof panel area) are flagged as such rather than stated as fact.",
+  },
+
   rumors: [
     {
       title: 'UK launch targeted for 2027',
@@ -223,6 +293,11 @@ export const research = {
         label: 'Sensor approach',
         value: 'Camera + radar, no lidar',
         note: '11 cameras (incl. 2 high-resolution front binocular cameras) + 12 ultrasonic sensors + radar',
+      },
+      {
+        label: 'Parking assist (XPILOT)',
+        value: 'Memory parking, auto-park in unmarked spaces, remote summon',
+        note: 'Also includes reverse tracking and dead-end unparking assist',
       },
       {
         label: 'Infotainment SoC',
@@ -295,6 +370,13 @@ export const research = {
     { label: 'Top Gear Philippines', url: 'https://www.topgear.com.ph/drives/car-reviews/xpeng-autonomous-driving-first-impressions-a6888-20260817-lfrm' },
     { label: 'CleanTechnica — Impresses In The Details', url: 'https://cleantechnica.com/2026/07/23/xpeng-l03-impresses-in-the-details-part-1/' },
     { label: 'The Driven', url: 'https://thedriven.io/2026/07/03/xpeng-lo3-first-impressions-a-new-low-cost-electric-suv-that-could-take-brand-into-mainstream/' },
+    { label: 'Xpeng newsroom — JuanMa Lopez appointment', url: 'https://www.xpeng.com/news/018fecf2a08d8fc2d8362c9e8d3a0126' },
+    { label: 'CnEVPost — JuanMa Lopez appointment', url: 'https://cnevpost.com/2024/06/06/xpeng-appoints-juanma-lopez-as-vp-design/' },
+    { label: 'Elbil RADAR — AWD Performance specs', url: 'https://elbilradar.com/ev_model/en/2550_xpeng_l03_awd_performance/' },
+    { label: 'EV Database — AWD Performance specs', url: 'https://ev-database.org/car/3678/XPENG-L03-AWD-Performance' },
+    { label: 'electrive.com — charging', url: 'https://www.electrive.com/2026/07/16/world-premiere-xpeng-l03-promises-rapid-charging-at-a-bargain-price/' },
+    { label: 'Top Gear PH — drive modes', url: 'https://www.topgear.com.ph/news/car-news/xpeng-l03-2027-ph-teaser-a6888-20260717' },
+    { label: 'CleanTechnica — interior details', url: 'https://cleantechnica.com/2026/07/23/xpeng-l03-impresses-in-the-details-part-2/' },
   ] satisfies Source[],
 };
 
