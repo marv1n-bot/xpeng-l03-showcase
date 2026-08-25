@@ -17,6 +17,7 @@ export default function ResearchPage() {
             ← Back to showcase
           </Link>
           <h1 className="mt-4 font-display text-3xl font-medium sm:text-4xl">L03 Research Notebook</h1>
+          <p className="mt-4 max-w-2xl font-display text-lg font-medium text-cloud-gray">{research.lead}</p>
           <p className="mt-3 max-w-2xl text-cloud-gray/70">{research.intro}</p>
           <p className="mt-2 text-xs uppercase tracking-wide text-cloud-gray/50">Updated {research.updated}</p>
         </div>
