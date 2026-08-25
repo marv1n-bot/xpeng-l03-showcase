@@ -39,6 +39,21 @@ export interface Source {
   url: string;
 }
 
+export interface ElectronicsFact {
+  label: string;
+  value: string;
+  note?: string;
+}
+
+export interface ReviewItem {
+  date: string;
+  outlet: string;
+  author: string;
+  kind: 'Hands-on test drive' | 'Ride-along' | 'Launch preview (no drive)';
+  summary: string;
+  url: string;
+}
+
 export const research = {
   updated: 'August 2026',
   intro:
@@ -184,6 +199,87 @@ export const research = {
     },
   ] satisfies RumorItem[],
 
+  electronics: {
+    headline:
+      "The Ultra trim's headline feature is its onboard compute — Xpeng is the first Chinese automaker shipping proprietary in-house AI driving silicon standard across an entire model, not bought in from Nvidia or Horizon Robotics.",
+    facts: [
+      {
+        label: 'Compute platform',
+        value: 'Xpeng Turing AI chip (self-developed)',
+        note: 'Every L03 trim ships at least one Turing chip standard',
+      },
+      {
+        label: 'AWD Performance Ultra compute',
+        value: '3 chips, 2,250 TOPS combined',
+        note:
+          "2 chips (1,500 TOPS) dedicated to ADAS, 1 chip to the smart cabin — the cabin chip is the \"third computer\" referenced in the trim's marketing",
+      },
+      {
+        label: 'ADAS software',
+        value: 'NGP / XNGP on VLA 2.0',
+        note: 'Xpeng\'s "vision-language-action" model, described by the company as a physical-world foundation model for driving decisions',
+      },
+      {
+        label: 'Sensor approach',
+        value: 'Camera + radar, no lidar',
+        note: '11 cameras (incl. 2 high-resolution front binocular cameras) + 12 ultrasonic sensors + radar',
+      },
+      {
+        label: 'Infotainment SoC',
+        value: 'MediaTek MT8676',
+        note: 'Drives the 15.6" 2.5K central touchscreen (600 nits) and 26.8" full-color head-up display',
+      },
+      {
+        label: 'Cockpit software',
+        value: 'XOS 6 (Global Intelligent Cockpit)',
+        note: 'Conversational AI voice assistant with contextual, multilingual understanding',
+      },
+      {
+        label: 'OTA updates',
+        value: 'Over Wi-Fi / 4G',
+        note: 'Xpeng ships fleet-wide OTA releases regularly (XOS 5.x series through mid-2026); L03-specific update cadence not yet established this early in rollout',
+      },
+    ] satisfies ElectronicsFact[],
+    caveat:
+      'Chip-count reporting is not fully consistent across outlets — some describe a base/Ultra split of 1 vs. 2 Turing chips (1,500 TOPS), others describe the AWD Performance Ultra specifically as carrying 3 chips (2,250 TOPS combined, including the cabin chip). The 3-chip/2,250-TOPS figure is the one tied directly to the Ultra AWD trim by multiple outlets and is used above; treat exact chip allocation as best-available rather than fully reconciled.',
+  },
+
+  reviews: {
+    headline:
+      "The L03 is weeks old in most markets, so most published pieces are launch previews rather than extended road tests. A handful of outlets have done actual test drives or ride-alongs — real-world range testing hasn't been published yet.",
+    items: [
+      {
+        date: '17 Aug 2026',
+        outlet: 'Top Gear Philippines',
+        author: 'Billy Caluag',
+        kind: 'Hands-on test drive',
+        summary:
+          'Test-drove the L03 in Guangzhou with ~90% of seat time in autonomous mode. Praised the one-button destination handoff and smooth traffic weaving; braking felt "almost elegant." System needed manual guidance in heavy rain and a manual nudge past a parked truck during a parking maneuver — concluded it remains genuinely "driver-assisted," not hands-off.',
+        url: 'https://www.topgear.com.ph/drives/car-reviews/xpeng-autonomous-driving-first-impressions-a6888-20260817-lfrm',
+      },
+      {
+        date: '23 Jul 2026',
+        outlet: 'CleanTechnica',
+        author: 'Larry Evans',
+        kind: 'Ride-along',
+        summary:
+          'Rode (didn\'t drive) a prototype Ultra AWD ahead of European delivery. Passenger-seat impressions: suspension had "good feel" without harshness, stiff chassis with little body roll, cabin "quiet, without rattles." Liked the seat build quality and soft-touch materials; noted the 26.8" HUD is good enough that the instrument cluster feels largely unnecessary.',
+        url: 'https://cleantechnica.com/2026/07/23/xpeng-l03-impresses-in-the-details-part-1/',
+      },
+      {
+        date: '3 Jul 2026',
+        outlet: 'The Driven',
+        author: 'Riz Akhtar',
+        kind: 'Launch preview (no drive)',
+        summary:
+          'Beijing launch preview, explicitly not a test drive — up-close look only. Called cabin quality above typical budget-segment norms, close to Xpeng\'s premium G6. Flagged strong practicality (500+ L cargo, 100+ L frunk) and positioned the L03 as Xpeng\'s likely best-seller on price.',
+        url: 'https://thedriven.io/2026/07/03/xpeng-lo3-first-impressions-a-new-low-cost-electric-suv-that-could-take-brand-into-mainstream/',
+      },
+    ] satisfies ReviewItem[],
+    rangeNote:
+      "No outlet has yet published a real-world range test against the AWD Performance Ultra's 440 km WLTP claim — European deliveries only start Q4 2026, so independent range testing hasn't happened. Worth revisiting this section once cars are in reviewers' hands longer-term.",
+  },
+
   sources: [
     { label: 'CnEVPost', url: 'https://cnevpost.com/2026/07/16/xpeng-launches-mona-l03/' },
     { label: 'CarNewsChina', url: 'https://carnewschina.com/2026/07/16/xpeng-l03-launches-in-europe-at-40740-usd-to-fight-for-market-share/' },
@@ -194,6 +290,11 @@ export const research = {
     { label: 'evpowered.co.uk', url: 'https://evpowered.co.uk/news/xpeng-l03-revealed-with-up-to-382bhp-ahead-of-2027-uk-launch/' },
     { label: 'EVKX', url: 'https://evkx.net/models/xpeng/l03/l03_71.2_kwh_awd_performance/' },
     { label: 'Wikipedia — XPeng Mona L03', url: 'https://en.wikipedia.org/wiki/XPeng_Mona_L03' },
+    { label: 'TheNextWeb', url: 'https://thenextweb.com/news/xpeng-l03-turing-ai-chip-global-launch' },
+    { label: 'ADAS & Autonomous Vehicle International', url: 'https://www.autonomousvehicleinternational.com/news/adas/xpeng-introduces-l03-with-next-generation-ai-cockpit-and-adas.html' },
+    { label: 'Top Gear Philippines', url: 'https://www.topgear.com.ph/drives/car-reviews/xpeng-autonomous-driving-first-impressions-a6888-20260817-lfrm' },
+    { label: 'CleanTechnica — Impresses In The Details', url: 'https://cleantechnica.com/2026/07/23/xpeng-l03-impresses-in-the-details-part-1/' },
+    { label: 'The Driven', url: 'https://thedriven.io/2026/07/03/xpeng-lo3-first-impressions-a-new-low-cost-electric-suv-that-could-take-brand-into-mainstream/' },
   ] satisfies Source[],
 };
 
