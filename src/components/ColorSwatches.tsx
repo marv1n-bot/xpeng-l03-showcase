@@ -18,7 +18,7 @@ export function ColorSwatches({ colors }: { colors: ColorOption[] }) {
                   alt={`${color.name} ${color.role}`}
                   fill
                   className="object-cover"
-                  style={color.role === 'exterior' ? { objectPosition: '50% 70%' } : undefined}
+                  style={{ objectPosition: color.role === 'exterior' ? '50% 63%' : '50% 42%' }}
                 />
               </div>
             )}

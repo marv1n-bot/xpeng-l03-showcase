@@ -55,13 +55,13 @@ export const car = {
       role: 'exterior',
       name: 'Phantom Purple',
       hex: '#4a3564',
-      photo: '/images/xpeng-l03-exterior-colorway.jpg',
+      photo: '/images/xpeng-l03-exterior-colorway-track.webp',
     },
     {
       role: 'interior',
       name: 'Light Gray',
       hex: '#c7c5c2',
-      photo: '/images/xpeng-l03-interior-light-gray.jpg',
+      photo: '/images/xpeng-l03-interior-cabin-wide.jpg',
     },
   ] satisfies ColorOption[],
 
