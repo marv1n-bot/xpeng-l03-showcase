@@ -3,22 +3,18 @@ import type { Car } from '@/content/car';
 
 export function Hero({ car }: { car: Car }) {
   return (
-    <section className="relative isolate flex min-h-[100svh] flex-col overflow-hidden bg-ink">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_90%_65%_at_50%_22%,#8a6bb0_0%,#4a3564_38%,#1c1428_65%,#0a0a0d_90%)]">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_95%,rgba(122,95,158,0.45)_0%,transparent_55%)]" />
-      </div>
+    <section className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden bg-ink">
+      <LightboxImage
+        src={car.images.heroExterior.src}
+        alt={car.images.heroExterior.alt}
+        fill
+        priority
+        className="object-cover object-[38%_50%] sm:object-[40%_45%]"
+      />
 
-      <div className="relative min-h-[42vh] flex-1 pt-28 sm:min-h-[50vh] sm:pt-32 lg:min-h-[58vh]">
-        <LightboxImage
-          src={car.images.heroExterior.src}
-          alt={car.images.heroExterior.alt}
-          fill
-          priority
-          className="object-cover object-[70%_68%] sm:object-[55%_90%]"
-        />
-      </div>
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/95 via-black/55 via-45% to-transparent" />
 
-      <div className="relative px-6 pb-16 pt-10 sm:px-10 sm:pb-24 sm:pt-14 lg:px-16">
+      <div className="relative z-10 px-6 pb-16 pt-10 sm:px-10 sm:pb-24 sm:pt-14 lg:px-16">
         <p className="font-display text-sm uppercase tracking-[0.3em] text-cloud-gray/80">
           {car.make} · {car.trim}
         </p>
