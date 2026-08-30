@@ -56,6 +56,10 @@ export interface ReviewItem {
 
 export const research = {
   updated: 'August 2026',
+  heroImage: {
+    src: '/images/xpeng-l03-research-hero-street.jpg',
+    alt: 'Xpeng L03 low-angle front three-quarter view on a sunny street, purple colorway',
+  },
   lead:
     "The XPeng MONA L03 AWD Performance Ultra is a high-performance, AI-driven mid-size coupe SUV. Designed under former Ferrari design chief JuanMa Lopez, the L03 blends a ultra-low aerodynamic fastback silhouette with XPeng's end-to-end neural network architecture.",
   intro:
