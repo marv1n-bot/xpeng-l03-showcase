@@ -36,6 +36,8 @@ export const car = {
   trim: 'AWD Performance Ultra',
   tagline: 'Dual-motor AWD. 285 kW. Zero compromise.',
   ownerNote: 'European delivery arriving Q4 2026.',
+  intro:
+    "The XPeng MONA L03 AWD Performance Ultra is a high-performance, AI-driven mid-size coupe SUV. Designed under former Ferrari design chief JuanMa Lopez, the L03 blends a ultra-low aerodynamic fastback silhouette with XPeng's end-to-end neural network architecture.",
 
   images: {
     heroExterior: {
@@ -105,6 +107,31 @@ export const car = {
           value: 'Included',
           note: 'Ultra trim only, Europe',
         },
+        {
+          label: 'Compute platform',
+          value: 'Xpeng Turing AI chip (self-developed)',
+          note: 'AWD Performance Ultra: 3 chips, 2,250 TOPS combined — 2 chips (1,500 TOPS) for ADAS, 1 for the smart cabin',
+        },
+        {
+          label: 'VLA 2.0 driving model',
+          value: '<80 ms response latency, camera-only',
+          note: "Xpeng's vision-language-action model; trained on roughly 100M driving clips plus a companion scene-reasoning model",
+        },
+        {
+          label: 'VLA 2.0 Europe rollout',
+          value: 'Early 2027',
+          note: 'Confirmed for the L03; other models (P7, X9, G9L) undecided pending compute headroom',
+        },
+        {
+          label: 'Sensor suite',
+          value: '11 cameras + 12 ultrasonic sensors + radar',
+          note: 'No lidar or HD maps — includes 2 high-resolution front binocular cameras',
+        },
+        {
+          label: 'Cockpit software',
+          value: 'XOS 6 (Global Intelligent Cockpit)',
+          note: 'Conversational AI voice assistant; 15.6" 2.5K touchscreen + 26.8" head-up display',
+        },
       ],
     },
     {
@@ -115,6 +142,16 @@ export const car = {
         { label: 'Flat-bed sleep mode', value: 'Yes' },
         { label: 'Under-seat storage', value: '10 L' },
         { label: 'Door handles', value: 'Manual, freeze-proof' },
+        {
+          label: 'Cargo & frunk volume',
+          value: '367–539 L rear / 44–102 L frunk',
+          note: 'Range reflects differing measurement methods across outlets, not fully reconciled',
+        },
+        { label: 'Towing capacity', value: '1,500 kg braked / 750 kg unbraked' },
+        {
+          label: 'Interior comfort',
+          value: '14-point massage front seats, dual 50W wireless charging pads',
+        },
       ],
     },
     {

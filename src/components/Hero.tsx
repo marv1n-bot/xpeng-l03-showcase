@@ -23,6 +23,7 @@ export function Hero({ car }: { car: Car }) {
         </h1>
         <p className="mt-6 max-w-xl text-lg text-cloud-gray sm:text-xl">{car.tagline}</p>
         <p className="mt-2 text-sm text-cloud-gray/60">{car.ownerNote}</p>
+        <p className="mt-6 max-w-2xl font-display text-lg font-medium text-cloud-gray">{car.intro}</p>
 
         <div className="mt-12 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">
           {car.heroStats.map((stat) => (
