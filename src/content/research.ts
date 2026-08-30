@@ -112,6 +112,14 @@ export const research = {
       url: 'https://cnevpost.com/2026/07/22/xpeng-delivers-first-mona-l03-suvs-china/',
     },
     {
+      date: '17 Jul 2026',
+      headline: 'First outside ride-along in VLA 2.0 (Munich)',
+      summary:
+        "One day after the global launch, Xpeng gave outlets their first external ride in a car running VLA 2.0 — its 2nd-generation vision-language-action self-driving stack — on public Munich streets. It held back from cyclists, threaded gaps between cars and trams, and needed no disengagements over the route; the one miss was a traffic light mounted high above the car, outside the cameras' framing. CEO He Xiaopeng confirmed NGP powered by VLA 2.0 launches for European customers in early 2027 — the L03 is confirmed to get it, with other models (P7, X9, G9L) undecided pending compute headroom.",
+      source: 'eletric-vehicles.com, corroborated by CleanTechnica / ArenaEV',
+      url: 'https://eletric-vehicles.com/xpeng/inside-xpengs-first-ride-of-vla-2-0-on-european-roads-review/',
+    },
+    {
       date: '16–17 Jul 2026',
       headline: 'Simultaneous global launch — Munich + China',
       summary:
@@ -292,6 +300,23 @@ export const research = {
         note: 'Xpeng\'s "vision-language-action" model, described by the company as a physical-world foundation model for driving decisions',
       },
       {
+        label: 'VLA 2.0 architecture',
+        value: '<80 ms response latency, camera-only',
+        note:
+          'Drops the intermediate "language" step used by 1st-gen VLA to cut response latency; trained on roughly 100M driving clips (mostly Chinese roads) plus a companion scene-reasoning model. Camera-only for driving decisions with radar/ultrasonic as backup — no lidar or HD maps — which Xpeng and outlets both frame as the direct comparison point to Tesla FSD.',
+      },
+      {
+        label: 'VLA 2.0 Europe rollout',
+        value: 'Early 2027 (L03 confirmed)',
+        note:
+          "Confirmed for the L03; not yet decided for other models (P7, X9, G9L), pending compute headroom. First outside ride-along was 17 Jul 2026 in Munich — see Research news above.",
+      },
+      {
+        label: 'VLA 2.0 external licensing',
+        value: 'Volkswagen (first Western OEM)',
+        note: 'VW is the first Western automaker to license VLA 2.0 together with the Turing chip.',
+      },
+      {
         label: 'Sensor approach',
         value: 'Camera + radar, no lidar',
         note: '11 cameras (incl. 2 high-resolution front binocular cameras) + 12 ultrasonic sensors + radar',
@@ -318,7 +343,7 @@ export const research = {
       },
     ] satisfies ElectronicsFact[],
     caveat:
-      'Chip-count reporting is not fully consistent across outlets — some describe a base/Ultra split of 1 vs. 2 Turing chips (1,500 TOPS), others describe the AWD Performance Ultra specifically as carrying 3 chips (2,250 TOPS combined, including the cabin chip). The 3-chip/2,250-TOPS figure is the one tied directly to the Ultra AWD trim by multiple outlets and is used above; treat exact chip allocation as best-available rather than fully reconciled.',
+      'Chip-count reporting is not fully consistent across outlets — some describe a base/Ultra split of 1 vs. 2 Turing chips (1,500 TOPS), others describe the AWD Performance Ultra specifically as carrying 3 chips (2,250 TOPS combined, including the cabin chip). The 3-chip/2,250-TOPS figure is the one tied directly to the Ultra AWD trim by multiple outlets and is used above; treat exact chip allocation as best-available rather than fully reconciled. VLA 2.0 latency and training-data figures likewise come from a single detailed source (CleanTechnica) rather than being independently corroborated elsewhere yet.',
   },
 
   reviews: {
@@ -379,6 +404,11 @@ export const research = {
     { label: 'electrive.com — charging', url: 'https://www.electrive.com/2026/07/16/world-premiere-xpeng-l03-promises-rapid-charging-at-a-bargain-price/' },
     { label: 'Top Gear PH — drive modes', url: 'https://www.topgear.com.ph/news/car-news/xpeng-l03-2027-ph-teaser-a6888-20260717' },
     { label: 'CleanTechnica — interior details', url: 'https://cleantechnica.com/2026/07/23/xpeng-l03-impresses-in-the-details-part-2/' },
+    { label: 'eletric-vehicles.com — first VLA 2.0 ride, Munich', url: 'https://eletric-vehicles.com/xpeng/inside-xpengs-first-ride-of-vla-2-0-on-european-roads-review/' },
+    { label: 'CleanTechnica — VLA 2.0 in Munich', url: 'https://cleantechnica.com/2026/07/30/xpeng-vla-2-0-in-munich-taking-global-intelligent-driving-lead/' },
+    { label: 'ArenaEV — VLA 2.0 testing in Germany', url: 'https://www.arenaev.com/xpeng_l03_testing_nextgen_autonomous_tech_in_germany_days_ahead_of_global_debut-news-6062.php' },
+    { label: 'CleanTechnica — Volkswagen licenses VLA 2.0', url: 'https://cleantechnica.com/2026/03/03/volkswagen-becomes-xpengs-first-customer-for-vla-2-0-intelligent-driving-system/' },
+    { label: 'YouTube — XPeng L03 Review & VLA 2.0 First Test', url: 'https://www.youtube.com/watch?v=SPrgE5bAMv8' },
   ] satisfies Source[],
 };
 
