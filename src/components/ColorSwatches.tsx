@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { LightboxImage } from '@/components/Lightbox';
 import type { ColorOption } from '@/content/car';
 
 export function ColorSwatches({ colors }: { colors: ColorOption[] }) {
@@ -13,7 +13,7 @@ export function ColorSwatches({ colors }: { colors: ColorOption[] }) {
           >
             {color.photo && (
               <div className="relative h-48 w-full bg-ink">
-                <Image
+                <LightboxImage
                   src={color.photo}
                   alt={`${color.name} ${color.role}`}
                   fill

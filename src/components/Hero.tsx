@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { LightboxImage } from '@/components/Lightbox';
 import type { Car } from '@/content/car';
 
 export function Hero({ car }: { car: Car }) {
@@ -9,7 +9,7 @@ export function Hero({ car }: { car: Car }) {
       </div>
 
       <div className="relative min-h-[42vh] flex-1 pt-28 sm:min-h-[50vh] sm:pt-32 lg:min-h-[58vh]">
-        <Image
+        <LightboxImage
           src={car.images.heroExterior.src}
           alt={car.images.heroExterior.alt}
           fill
