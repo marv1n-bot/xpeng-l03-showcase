@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fetch:youtube": "node scripts/fetch-youtube.mjs"
   },
   "dependencies": {
     "next": "^15.1.0",

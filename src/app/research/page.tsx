@@ -1,7 +1,9 @@
 import Link from 'next/link';
 
+import { YoutubeSection } from '@/components/YoutubeSection';
 import { car } from '@/content/car';
 import { research } from '@/content/research';
+import { youtube } from '@/content/youtube';
 
 export const metadata = {
   title: `${car.make} ${car.model} Research — News, Specs & Sentiment`,
@@ -174,6 +176,8 @@ export default function ResearchPage() {
           </ul>
         </div>
       </section>
+
+      <YoutubeSection strips={youtube.strips} />
 
       <footer className="border-t border-white/10 px-6 py-10 text-sm text-cloud-gray/50 sm:px-10 lg:px-16">
         <p>Research compiled from public reporting; details may change ahead of official confirmation.</p>
