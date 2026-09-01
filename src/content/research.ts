@@ -31,7 +31,7 @@ export interface SpecRow {
 export interface RumorItem {
   title: string;
   detail: string;
-  confidence: 'Reported, not yet delivered' | 'Speculative';
+  confidence: 'Reported, not yet delivered' | 'Speculative' | 'Unresolved' | 'Debunked';
 }
 
 export interface Source {
@@ -281,6 +281,18 @@ export const research = {
         'A related model, the Mona L05, already exists alongside the M03 and L03 — suggests Xpeng is building out a full Mona sub-brand on shared underpinnings, though official platform-sharing details for future models are not public.',
       confidence: 'Speculative',
     },
+    {
+      title: 'NL lease pricing is inconsistent between providers',
+      detail:
+        "Athlon's public NL private-lease catalog lists the G6, G9, and P7+ but not the L03 — despite at least one confirmed L03 order having gone through Athlon directly. Ayvens' NL site does list the L03, quoting from €578/month excl. VAT on a 60-month/10,000 km term. Whether the Athlon gap is a listing lag, a fleet/private-order-only path, or something else hasn't been confirmed.",
+      confidence: 'Unresolved',
+    },
+    {
+      title: 'Three circulating NL retail-price claims did not hold up',
+      detail:
+        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact.',
+      confidence: 'Debunked',
+    },
   ] satisfies RumorItem[],
 
   electronics: {
@@ -293,10 +305,10 @@ export const research = {
         note: 'Every L03 trim ships at least one Turing chip standard',
       },
       {
-        label: 'AWD Performance Ultra compute',
-        value: '3 chips, 2,250 TOPS combined',
+        label: 'Compute by trim',
+        value: 'Max: 1 chip / 750 TOPS · Ultra SE: 2 chips / 1,500 TOPS · Ultra AWD: 3 chips / 2,250 TOPS',
         note:
-          "2 chips (1,500 TOPS) dedicated to ADAS, 1 chip to the smart cabin — the cabin chip is the \"third computer\" referenced in the trim's marketing",
+          'Corrects an earlier "only Ultra gets multi-chip" simplification — compute scales with trim, not a simple base-vs-Ultra split. Ultra AWD (this car\'s configuration) is the 3-chip/2,250-TOPS tier: 2 chips (1,500 TOPS) dedicated to ADAS, 1 chip to the smart cabin — the cabin chip is the "third computer" referenced in the trim\'s marketing. This is also the spec fitted to the Munich VLA 2.0 test vehicle itself.',
       },
       {
         label: 'ADAS software',
@@ -353,7 +365,7 @@ export const research = {
       },
     ] satisfies ElectronicsFact[],
     caveat:
-      'Chip-count reporting is not fully consistent across outlets — some describe a base/Ultra split of 1 vs. 2 Turing chips (1,500 TOPS), others describe the AWD Performance Ultra specifically as carrying 3 chips (2,250 TOPS combined, including the cabin chip). The 3-chip/2,250-TOPS figure is the one tied directly to the Ultra AWD trim by multiple outlets and is used above; treat exact chip allocation as best-available rather than fully reconciled. VLA 2.0 latency and training-data figures likewise come from a single detailed source (CleanTechnica) rather than being independently corroborated elsewhere yet.',
+      "Earlier reporting on chip counts wasn't fully consistent across outlets, describing only a base/Ultra split. A closer per-trim breakdown (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) resolves most of that ambiguity and matches the spec confirmed on the Munich VLA 2.0 test vehicle, so it's used above as the current best-available figure rather than the earlier binary split. VLA 2.0 latency and training-data figures still come from a single detailed source (CleanTechnica) rather than being independently corroborated elsewhere yet.",
   },
 
   reviews: {
@@ -389,7 +401,7 @@ export const research = {
       },
     ] satisfies ReviewItem[],
     rangeNote:
-      "No outlet has yet published a real-world range test against the AWD Performance Ultra's 440 km WLTP claim — European deliveries only start Q4 2026, so independent range testing hasn't happened. Worth revisiting this section once cars are in reviewers' hands longer-term.",
+      "No outlet has yet published a real-world range test against the AWD Performance Ultra's 440 km WLTP claim, or a genuine long-term ownership report — European deliveries only start Q4 2026, so independent range testing and real owner feedback haven't happened yet. Beyond the pieces linked above, The Driven, Gizmochina, and CarsGuide have each published broadly consistent early impressions: good steering feel, a stiffer EU-tuned chassis versus the China-market suspension tune, and a competitive pitch against the BYD Atto 3, Skoda Elroq, and VW ID.3/ID.5 — still launch-event impressions, not full production-spec road tests. Closest thing to owner sentiment so far is launch-event attendee reaction (e.g. the Munich debut crowd, with CEO He Xiaopeng present) rather than post-delivery experience. Worth revisiting this whole section once cars are in reviewers' — and owners' — hands longer-term.",
   },
 
   sources: [
@@ -420,6 +432,8 @@ export const research = {
     { label: 'CleanTechnica — Volkswagen licenses VLA 2.0', url: 'https://cleantechnica.com/2026/03/03/volkswagen-becomes-xpengs-first-customer-for-vla-2-0-intelligent-driving-system/' },
     { label: 'CleanTechnica — VLA 2.0 v6.3.0 update (4D Perception, X-Foresight)', url: 'https://cleantechnica.com/2026/08/30/xpeng-drives-physical-ai-to-next-level/' },
     { label: 'YouTube — XPeng L03 Review & VLA 2.0 First Test', url: 'https://www.youtube.com/watch?v=SPrgE5bAMv8' },
+    { label: 'Athlon NL — private lease catalog', url: 'https://www.athlon.com/nl' },
+    { label: 'Ayvens NL — lease listings', url: 'https://www.ayvens.com/nl-nl/' },
   ] satisfies Source[],
 };
 
