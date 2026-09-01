@@ -55,7 +55,7 @@ export interface ReviewItem {
 }
 
 export const research = {
-  updated: 'August 2026',
+  updated: 'September 2026',
   heroImage: {
     src: '/images/xpeng-l03-research-hero-street.jpg',
     alt: 'Xpeng L03 low-angle front three-quarter view on a sunny street, purple colorway',
@@ -321,6 +321,12 @@ export const research = {
         note: 'VW is the first Western automaker to license VLA 2.0 together with the Turing chip.',
       },
       {
+        label: 'VLA 2.0 software update — v6.3.0',
+        value: 'Rolling out to Ultra / Max trims, September 2026',
+        note:
+          'Announced 30 Aug 2026. Adds "4D Perception" (Infini-VLA: unbounded historical timeline for decisions, ~30s practical working memory) and "X-Foresight" (predicts ~6s ahead, extendable to 21s for proactive reasoning), plus a conversational "Master Agent" voice control that drops the need for preset commands. Xpeng claims a 300% latency/response-speed improvement (via streaming inference) and a 20x safety improvement (via Flow-Matching path selection) — company-stated figures, not yet independently verified. Older dual-Orin cars get a reduced update later in 2026; L03 AWD Performance Ultra is covered by the Ultra/Max rollout.',
+      },
+      {
         label: 'Sensor approach',
         value: 'Camera + radar, no lidar',
         note: '11 cameras (incl. 2 high-resolution front binocular cameras) + 12 ultrasonic sensors + radar',
@@ -412,6 +418,7 @@ export const research = {
     { label: 'CleanTechnica — VLA 2.0 in Munich', url: 'https://cleantechnica.com/2026/07/30/xpeng-vla-2-0-in-munich-taking-global-intelligent-driving-lead/' },
     { label: 'ArenaEV — VLA 2.0 testing in Germany', url: 'https://www.arenaev.com/xpeng_l03_testing_nextgen_autonomous_tech_in_germany_days_ahead_of_global_debut-news-6062.php' },
     { label: 'CleanTechnica — Volkswagen licenses VLA 2.0', url: 'https://cleantechnica.com/2026/03/03/volkswagen-becomes-xpengs-first-customer-for-vla-2-0-intelligent-driving-system/' },
+    { label: 'CleanTechnica — VLA 2.0 v6.3.0 update (4D Perception, X-Foresight)', url: 'https://cleantechnica.com/2026/08/30/xpeng-drives-physical-ai-to-next-level/' },
     { label: 'YouTube — XPeng L03 Review & VLA 2.0 First Test', url: 'https://www.youtube.com/watch?v=SPrgE5bAMv8' },
   ] satisfies Source[],
 };

@@ -1,17 +1,10 @@
 {
-  "generatedAt": "2026-08-31T07:03:06.756Z",
+  "generatedAt": "2026-09-01T07:07:27.433Z",
   "strips": [
     {
       "query": "xpeng l03",
       "label": "XPeng L03",
       "videos": [
-        {
-          "videoId": "2xhpuJYxtoc",
-          "title": "Xpeng L03 first impressions",
-          "channelTitle": "Bjørn Nyland",
-          "thumbnailUrl": "https://i.ytimg.com/vi/2xhpuJYxtoc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAxv3xpSoXjGgcykN4WqHVwabj1Q",
-          "publishedText": "6 days ago"
-        },
         {
           "videoId": "NLFfTLOWM0k",
           "title": "Xpeng L03 Premiere REVIEW - good news for customers, bad news for European manufacturers?",
@@ -20,25 +13,11 @@
           "publishedText": "1 month ago"
         },
         {
-          "videoId": "VVEBWA60HSY",
-          "title": "Xpeng's Mona L03: The Most Important Car EVER for Xpeng",
-          "channelTitle": "The Electric Viking",
-          "thumbnailUrl": "https://i.ytimg.com/vi/VVEBWA60HSY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC18hXDV9zYTEvIHC9CvHJ-g0NFfQ",
-          "publishedText": "2 months ago"
-        },
-        {
-          "videoId": "QI9wll6-m38",
-          "title": "2026 Xpeng L03 First Impression POV Test Drive",
-          "channelTitle": "David's Road Collection",
-          "thumbnailUrl": "https://i.ytimg.com/vi/QI9wll6-m38/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDhWboFYkbZWhCvUFSsKRixQNCqQ",
-          "publishedText": "4 days ago"
-        },
-        {
-          "videoId": "ieFVRLClg2E",
-          "title": "Xpeng L03 Dynamic Review: All Look and No Good?",
-          "channelTitle": "CarMan",
-          "thumbnailUrl": "https://i.ytimg.com/vi/ieFVRLClg2E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAY9Q6Gzl05SjMUmiI6FCErCwGmtg",
-          "publishedText": "2 weeks ago"
+          "videoId": "2xhpuJYxtoc",
+          "title": "Xpeng L03 first impressions",
+          "channelTitle": "Bjørn Nyland",
+          "thumbnailUrl": "https://i.ytimg.com/vi/2xhpuJYxtoc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAxv3xpSoXjGgcykN4WqHVwabj1Q",
+          "publishedText": "7 days ago"
         },
         {
           "videoId": "J5K3TH8DG7M",
@@ -48,11 +27,25 @@
           "publishedText": "1 month ago"
         },
         {
-          "videoId": "SPrgE5bAMv8",
-          "title": "XPeng L03 Review & VLA 2.0 First Test — The World-Exclusive European Drive",
-          "channelTitle": "It's Only Electric",
-          "thumbnailUrl": "https://i.ytimg.com/vi/SPrgE5bAMv8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg18pDbGsgFJcdm-xuKa6NJnbMVQ",
-          "publishedText": "1 month ago"
+          "videoId": "ieFVRLClg2E",
+          "title": "Xpeng L03 Dynamic Review: All Look and No Good?",
+          "channelTitle": "CarMan",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ieFVRLClg2E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAY9Q6Gzl05SjMUmiI6FCErCwGmtg",
+          "publishedText": "2 weeks ago"
+        },
+        {
+          "videoId": "vMoF9kQ0ViU",
+          "title": "XPeng Mona L03 Review: The Smart EV That Could Change the Market",
+          "channelTitle": "Motor Torque",
+          "thumbnailUrl": "https://i.ytimg.com/vi/vMoF9kQ0ViU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCe08tNk7Y4gLaqJynPWKf8P1OsCA",
+          "publishedText": "4 days ago"
+        },
+        {
+          "videoId": "VVEBWA60HSY",
+          "title": "Xpeng's Mona L03: The Most Important Car EVER for Xpeng",
+          "channelTitle": "The Electric Viking",
+          "thumbnailUrl": "https://i.ytimg.com/vi/VVEBWA60HSY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC18hXDV9zYTEvIHC9CvHJ-g0NFfQ",
+          "publishedText": "2 months ago"
         },
         {
           "videoId": "04dABkBzpuA",
@@ -60,6 +53,13 @@
           "channelTitle": "CarSauce",
           "thumbnailUrl": "https://i.ytimg.com/vi/04dABkBzpuA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHZs5GetAOoL7uR4t7FwcDaKS-sw",
           "publishedText": "1 month ago"
+        },
+        {
+          "videoId": "QI9wll6-m38",
+          "title": "2026 Xpeng L03 First Impression POV Test Drive",
+          "channelTitle": "David's Road Collection",
+          "thumbnailUrl": "https://i.ytimg.com/vi/QI9wll6-m38/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDhWboFYkbZWhCvUFSsKRixQNCqQ",
+          "publishedText": "5 days ago"
         }
       ]
     },
@@ -72,7 +72,7 @@
           "title": "XPENG VLA 2.0 6.3.0 All-New Version Intelligent Driving On and Off A Ferry",
           "channelTitle": "XPENG",
           "thumbnailUrl": "https://i.ytimg.com/vi/7hmem9ufLTM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAr6eCa4D0aP2_VJFJWSDiIezK3yw",
-          "publishedText": "3 days ago"
+          "publishedText": "4 days ago"
         },
         {
           "videoId": "hxPm0GL1pvk",
@@ -96,13 +96,6 @@
           "publishedText": "6 months ago"
         },
         {
-          "videoId": "v-xpRJIireY",
-          "title": "XPeng VLA 2.0  — Suddenly a Horse Appears!",
-          "channelTitle": "XpengXpev",
-          "thumbnailUrl": "https://i.ytimg.com/vi/v-xpRJIireY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhYIGUoZDAP&rs=AOn4CLCD7v5adFtGZPl-1r2aywXuxYrwWw",
-          "publishedText": "5 months ago"
-        },
-        {
           "videoId": "-bQpFqs9xeQ",
           "title": "XPENG L03 First Drive: The Tesla Model Y Killer? | AWD, VLA 2.0 & Real Test Drive",
           "channelTitle": "Sami Luo Tech",
@@ -110,18 +103,25 @@
           "publishedText": "1 month ago"
         },
         {
-          "videoId": "1ehLvMLdSkQ",
-          "title": "Over 180 Global Medias Attended XPENG VLA 2 0 Turing Test",
-          "channelTitle": "XPENG",
-          "thumbnailUrl": "https://i.ytimg.com/vi/1ehLvMLdSkQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfY96a3pmCe6SeP6lZeGxj7kQWaQ",
+          "videoId": "A4bh9sgPrcA",
+          "title": "China Self Driving vs US Self Driving - Stunned!",
+          "channelTitle": "Kim Java",
+          "thumbnailUrl": "https://i.ytimg.com/vi/A4bh9sgPrcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdu_Z9RcFhkz0j6irXNCGclvOgEQ",
+          "publishedText": "4 months ago"
+        },
+        {
+          "videoId": "T--qhjckJnY",
+          "title": "XPeng VLA 2.0 Test - Smooth, and not afraid to get its elbows out!",
+          "channelTitle": "Inside China Auto",
+          "thumbnailUrl": "https://i.ytimg.com/vi/T--qhjckJnY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDfzDUIe_qsJwdajR1YmqH9Gi7XFA",
           "publishedText": "3 months ago"
         },
         {
-          "videoId": "uiqL0PsLgtc",
-          "title": "This Autonomous Driving System Actually Works: Xpeng VLA 2.0",
-          "channelTitle": "Kyle Liong Cars",
-          "thumbnailUrl": "https://i.ytimg.com/vi/uiqL0PsLgtc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbZIgGzxuGnIBOmYMqZbwoZogFXg",
-          "publishedText": "11 days ago"
+          "videoId": "KVWhl5bBBLg",
+          "title": "FSD From China driving in Europe - XPENG VLA 2.0 full 30 minutes TEST DRIVE!",
+          "channelTitle": "Artur's Tech Tales",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KVWhl5bBBLg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-xFrW5ynoYfJG2SxICk0ksEOtxw",
+          "publishedText": "1 month ago"
         }
       ]
     }
