@@ -143,7 +143,7 @@ export const research = {
       date: '16–17 Jul 2026',
       headline: 'Simultaneous global launch — Munich + China',
       summary:
-        'Xpeng launches the L03 in 65 countries/regions at once. China pre-sale pricing lands at RMB 143,800–165,800; Germany opens at €35,600 (RWD Standard) up to €41,600 (AWD Performance Ultra).',
+        'Xpeng launches the L03 in 65 countries/regions at once. China pre-sale pricing lands at RMB 143,800–165,800; Germany opens at €35,600 (RWD Standard) up to €46,600 (AWD Performance Ultra).',
       source: 'CnEVPost / paultan.org / CarNewsChina',
       url: 'https://cnevpost.com/2026/07/16/xpeng-launches-mona-l03/',
     },
@@ -171,7 +171,7 @@ export const research = {
       battery: '71.2 kWh',
       range: '440 km WLTP',
       zeroToHundred: '4.5 s',
-      price: '€41,600 (Germany)',
+      price: '€46,600 (Germany)',
     },
     {
       variant: 'RWD Standard Range',
@@ -344,7 +344,7 @@ export const research = {
     {
       title: 'Denmark delivery timeline and pricing (secondary-source proxy data)',
       detail:
-        'Per xpeng.guru (secondary/cross-check source): Danish showrooms opened mid-August 2026, with first customer deliveries expected October 2026, and the AWD Performance Ultra priced at 329,995 DKK (~€44,200) in Denmark. That\'s a different market from the €41,600 German AWD Performance Ultra price already on file — a gap between markets (VAT, local pricing) is expected and not treated as a contradiction. The October Denmark delivery estimate also doesn\'t conflict with the separate NL "end of September" estimate tracked above — different countries, both single/limited-source estimates.',
+        'Per xpeng.guru (secondary/cross-check source): Danish showrooms opened mid-August 2026, with first customer deliveries expected October 2026, and the AWD Performance Ultra priced at 329,995 DKK (~€44,200) in Denmark — close to, and consistent with, the €46,600 German AWD Performance Ultra price already on file (some gap between markets is expected: VAT, local pricing). The October Denmark delivery estimate also doesn\'t conflict with the separate NL "end of September" estimate tracked above — different countries, both single/limited-source estimates.',
       confidence: 'Unresolved',
     },
   ] satisfies RumorItem[],
