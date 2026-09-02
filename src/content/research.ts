@@ -254,6 +254,26 @@ export const research = {
         note: 'Escape Mode manages per-wheel brake pressure and motor torque to free the car from mud, sand or snow',
       },
       {
+        label: 'Audio system',
+        value: '18+2 speaker spatial audio (20 total), 7.1.4, on Ultra',
+        note: 'Secondary source (xpeng.guru) — consistent with the "20-speaker 1,000W+" figure already tracked in Electronics below. Lower trims (SR/LR/Performance) get 9 speakers.',
+      },
+      {
+        label: 'Massage seats',
+        value: '"Cloud-Comfort" 14-point massage, front seats',
+        note: 'Branded name for the 14-point massage feature already tracked elsewhere on this page — Performance Ultra exclusive. Secondary source (xpeng.guru).',
+      },
+      {
+        label: 'Heated windshield',
+        value: 'ADAS camera area only, Performance Ultra exclusive',
+        note: "Warms the glass ahead of the driver-assist camera cluster, not the full windscreen. Secondary source (xpeng.guru).",
+      },
+      {
+        label: 'Optional wheels',
+        value: '20" Black Edition (Performance Ultra only)',
+        note: 'Adds black 20" wheels, black brake calipers and black exterior trim; standard wheels are 18"/20" depending on trim. Secondary source (xpeng.guru).',
+      },
+      {
         label: 'Battery cells',
         value: 'CALB-supplied LFP',
         note: '71.2 kWh pack on the AWD Performance Ultra',
@@ -315,6 +335,18 @@ export const research = {
         'One medium-confidence source cites first European deliveries "end of September 2026" with ~100 dealerships now in the network — more specific than the earlier "Q4, maybe early October" estimate. A separate Dutch outlet (e-drivers.com), checked independently, instead cites delivery in "the fourth quarter" and only 4 NL sales locations. These two accounts do not agree on either the delivery date or the network size; neither has been corroborated by an official Xpeng statement yet.',
       confidence: 'Unresolved',
     },
+    {
+      title: 'Euro NCAP — self-declared "5-Star Ready," official results pending',
+      detail:
+        'Xpeng has self-declared the L03 "5-Star Ready" for Euro NCAP, per xpeng.guru (secondary/cross-check source). No official Euro NCAP test results have been published yet — this is a manufacturer readiness claim, not an independently verified rating.',
+      confidence: 'Reported, not yet delivered',
+    },
+    {
+      title: 'Denmark delivery timeline and pricing (secondary-source proxy data)',
+      detail:
+        'Per xpeng.guru (secondary/cross-check source): Danish showrooms opened mid-August 2026, with first customer deliveries expected October 2026, and the AWD Performance Ultra priced at 329,995 DKK (~€44,200) in Denmark. That\'s a different market from the €41,600 German AWD Performance Ultra price already on file — a gap between markets (VAT, local pricing) is expected and not treated as a contradiction. The October Denmark delivery estimate also doesn\'t conflict with the separate NL "end of September" estimate tracked above — different countries, both single/limited-source estimates.',
+      confidence: 'Unresolved',
+    },
   ] satisfies RumorItem[],
 
   electronics: {
@@ -345,9 +377,9 @@ export const research = {
       },
       {
         label: 'VLA 2.0 Europe rollout',
-        value: 'Early 2027 (L03 confirmed)',
+        value: 'Q1 2027, Performance Ultra only at first',
         note:
-          "Confirmed for the L03; not yet decided for other models (P7, X9, G9L), pending compute headroom. First outside ride-along was 17 Jul 2026 in Munich — see Research news above.",
+          'Refines the earlier "early 2027" estimate — a secondary source (xpeng.guru) puts it at "planned Q1 2027," initially City + Highway NGP at Level 2+ capability, and limited to the Ultra trim first. Not yet decided for other models (P7, X9, G9L), pending compute headroom. First outside ride-along was 17 Jul 2026 in Munich — see Research news above.',
       },
       {
         label: 'VLA 2.0 external licensing',
@@ -458,6 +490,7 @@ export const research = {
     { label: 'Ayvens NL — lease listings', url: 'https://www.ayvens.com/nl-nl/' },
     { label: 'xpeng.com NL — Snel leverbaar (quick delivery) pricing', url: 'https://www.xpeng.com/nl/quick-delivery' },
     { label: 'Gasgoo — Mona L03 double-shift production', url: 'https://autonews.gasgoo.com/articles/news/xpeng-overcomes-chip-shortage-adopts-double-shifts-to-accelerate-mona-l03-capacity-2086717743847194625' },
+    { label: 'xpeng.guru — L03 lineup page (secondary/cross-check tier)', url: 'https://xpeng.guru/lineup/xpeng-l03/' },
   ] satisfies Source[],
 };
 
