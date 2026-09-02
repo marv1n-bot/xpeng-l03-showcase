@@ -94,6 +94,22 @@ export const research = {
 
   news: [
     {
+      date: '2 Sep 2026',
+      headline: 'Official NL pricing live — from €36,990',
+      summary:
+        "xpeng.com's Dutch site now has a \"Snel leverbaar\" (quick delivery) page live, with official NL retail pricing starting from €36,990 — the first Xpeng-published NL figure. This supersedes earlier unverified NL retail estimates and the Ayvens €578/month lease quote as the headline NL number. Per-trim NL pricing above the €36,990 starting figure isn't independently confirmed yet — see the NL pricing rumor entry below for an unresolved conflict with a secondary source's full trim ladder.",
+      source: 'xpeng.com (NL)',
+      url: 'https://www.xpeng.com/nl/quick-delivery',
+    },
+    {
+      date: '2 Sep 2026',
+      headline: 'Mona L03 moves to double-shift production, overseas deliveries targeted for Q4',
+      summary:
+        'Xpeng has shifted Mona L03 production to double shifts to accelerate capacity, working with suppliers to clear a chip-supply constraint. Overseas deliveries (including Europe) are set to begin in Q4 2026, expected to push quarterly overseas sales past 40,000 units. Production context, not NL-specific.',
+      source: 'Gasgoo',
+      url: 'https://autonews.gasgoo.com/articles/news/xpeng-overcomes-chip-shortage-adopts-double-shifts-to-accelerate-mona-l03-capacity-2086717743847194625',
+    },
+    {
       date: '18 Aug 2026',
       headline: 'Thailand launch',
       summary: 'L03 launches in Thailand in three trims: Standard Plus, Long Range Plus, and Long Range Ultra.',
@@ -284,14 +300,20 @@ export const research = {
     {
       title: 'NL lease pricing is inconsistent between providers',
       detail:
-        "Athlon's public NL private-lease catalog lists the G6, G9, and P7+ but not the L03 — despite at least one confirmed L03 order having gone through Athlon directly. Ayvens' NL site does list the L03, quoting from €578/month excl. VAT on a 60-month/10,000 km term. Whether the Athlon gap is a listing lag, a fleet/private-order-only path, or something else hasn't been confirmed.",
+        "As of 2 Sep 2026, xpeng.com's NL site lists official retail pricing from €36,990 — this is now the headline NL figure. Ayvens' NL site separately lists the L03 as a private lease from €578/month excl. VAT on a 60-month/10,000 km term, which is lease-specific context rather than the retail headline. Athlon's public NL private-lease catalog still lists the G6, G9, and P7+ but not the L03, despite at least one confirmed L03 order having gone through Athlon directly — whether that gap is a listing lag, a fleet/private-order-only path, or something else hasn't been confirmed.",
       confidence: 'Unresolved',
     },
     {
       title: 'Three circulating NL retail-price claims did not hold up',
       detail:
-        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact.',
+        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact. Note: as of 2 Sep 2026 xpeng.com confirms only the €36,990 starting price; a secondary Dutch outlet (e-drivers.com) is now citing the same four-trim ladder in (2) as current NL pricing, which conflicts with its earlier debunked status — not corroborated elsewhere, so the debunked verdict stands pending confirmation from an official source.',
       confidence: 'Debunked',
+    },
+    {
+      title: 'European delivery timing and dealership count — conflicting reports',
+      detail:
+        'One medium-confidence source cites first European deliveries "end of September 2026" with ~100 dealerships now in the network — more specific than the earlier "Q4, maybe early October" estimate. A separate Dutch outlet (e-drivers.com), checked independently, instead cites delivery in "the fourth quarter" and only 4 NL sales locations. These two accounts do not agree on either the delivery date or the network size; neither has been corroborated by an official Xpeng statement yet.',
+      confidence: 'Unresolved',
     },
   ] satisfies RumorItem[],
 
@@ -401,7 +423,7 @@ export const research = {
       },
     ] satisfies ReviewItem[],
     rangeNote:
-      "No outlet has yet published a real-world range test against the AWD Performance Ultra's 440 km WLTP claim, or a genuine long-term ownership report — European deliveries only start Q4 2026, so independent range testing and real owner feedback haven't happened yet. Beyond the pieces linked above, The Driven, Gizmochina, and CarsGuide have each published broadly consistent early impressions: good steering feel, a stiffer EU-tuned chassis versus the China-market suspension tune, and a competitive pitch against the BYD Atto 3, Skoda Elroq, and VW ID.3/ID.5 — still launch-event impressions, not full production-spec road tests. Closest thing to owner sentiment so far is launch-event attendee reaction (e.g. the Munich debut crowd, with CEO He Xiaopeng present) rather than post-delivery experience. Worth revisiting this whole section once cars are in reviewers' — and owners' — hands longer-term.",
+      "No outlet has yet published a real-world range test against the AWD Performance Ultra's 440 km WLTP claim, or a genuine long-term ownership report — European deliveries are estimated to start late September 2026 per one medium-confidence source (a separate source instead says Q4 2026 — see the delivery-timing rumor above), so independent range testing and real owner feedback haven't happened yet either way. Beyond the pieces linked above, The Driven, Gizmochina, and CarsGuide have each published broadly consistent early impressions: good steering feel, a stiffer EU-tuned chassis versus the China-market suspension tune, and a competitive pitch against the BYD Atto 3, Skoda Elroq, and VW ID.3/ID.5 — still launch-event impressions, not full production-spec road tests. Closest thing to owner sentiment so far is launch-event attendee reaction (e.g. the Munich debut crowd, with CEO He Xiaopeng present) rather than post-delivery experience. Worth revisiting this whole section once cars are in reviewers' — and owners' — hands longer-term.",
   },
 
   sources: [
@@ -434,6 +456,8 @@ export const research = {
     { label: 'YouTube — XPeng L03 Review & VLA 2.0 First Test', url: 'https://www.youtube.com/watch?v=SPrgE5bAMv8' },
     { label: 'Athlon NL — private lease catalog', url: 'https://www.athlon.com/nl' },
     { label: 'Ayvens NL — lease listings', url: 'https://www.ayvens.com/nl-nl/' },
+    { label: 'xpeng.com NL — Snel leverbaar (quick delivery) pricing', url: 'https://www.xpeng.com/nl/quick-delivery' },
+    { label: 'Gasgoo — Mona L03 double-shift production', url: 'https://autonews.gasgoo.com/articles/news/xpeng-overcomes-chip-shortage-adopts-double-shifts-to-accelerate-mona-l03-capacity-2086717743847194625' },
   ] satisfies Source[],
 };
 

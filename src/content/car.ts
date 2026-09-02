@@ -35,7 +35,7 @@ export const car = {
   model: 'L03',
   trim: 'AWD Performance Ultra',
   tagline: 'Dual-motor AWD. 285 kW. Zero compromise.',
-  ownerNote: 'European delivery arriving Q4 2026.',
+  ownerNote: 'European delivery arriving late September–Q4 2026.',
   intro:
     "The XPeng MONA L03 AWD Performance Ultra is a high-performance, AI-driven mid-size coupe SUV. Designed under former Ferrari design chief JuanMa Lopez, the L03 blends a ultra-low aerodynamic fastback silhouette with XPeng's end-to-end neural network architecture.",
 
@@ -158,7 +158,13 @@ export const car = {
       id: 'availability',
       title: 'Availability',
       description: 'Rollout timeline for the European market.',
-      facts: [{ label: 'European deliveries', value: 'From October 2026' }],
+      facts: [
+        {
+          label: 'European deliveries',
+          value: 'From late September 2026',
+          note: 'Medium-confidence single-source estimate, more specific than the earlier "Q4, maybe early October" guidance — treat as approximate',
+        },
+      ],
     },
   ] satisfies Section[],
 };
