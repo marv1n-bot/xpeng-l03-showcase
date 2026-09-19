@@ -63,7 +63,7 @@ export const research = {
   lead:
     "The XPeng MONA L03 AWD Performance Ultra is a high-performance, AI-driven mid-size coupe SUV. Designed under former Ferrari design chief JuanMa Lopez, the L03 blends a ultra-low aerodynamic fastback silhouette with XPeng's end-to-end neural network architecture.",
   intro:
-    "Ongoing notes on how the L03 (marketed in China as the Mona L03) is landing in the real world — reception, rollout news, how specs shift by market, and what's still unconfirmed. Compiled from public reporting; not affiliated with Xpeng.",
+    "Ongoing notes on how the L03 (marketed in China as the Mona L03) is landing in the real world — reception, rollout news, how specs shift by market, and what's still unconfirmed. Compiled from public reporting; not affiliated with Xpeng. Curb weight, drive modes and towing figures are now confirmed against the official English L03 user manual (vehicle system V6.3.2).",
 
   sentiment: {
     headline:
@@ -226,7 +226,7 @@ export const research = {
       {
         label: 'Dimensions (L×W×H)',
         value: '4,650 × 1,920 × 1,600 mm',
-        note: 'Wheelbase 2,850 mm',
+        note: 'Wheelbase 2,850 mm — 5 seats; maximum design gross mass 2,375 / 2,465 / 2,565 kg by trim, per the official manual.',
       },
       {
         label: 'Turning circle',
@@ -234,24 +234,25 @@ export const research = {
       },
       {
         label: 'Curb weight',
-        value: '2,115 kg (AWD Performance, per independent EV-spec databases)',
+        value: '2,060 kg (AWD Performance Ultra — Long-Range Ultra-4WD)',
         note:
-          'A Gemini-generated summary circulating separately puts this at 1,940 kg (2,040 kg with driver) — notably lower. That figure has no citation of its own and conflicts with what EV-spec databases report for this trim, so treat both as unreconciled rather than picking one.',
+          'Confirmed against the official English user manual (vehicle system V6.3.2): the trim mass table lists 2,060 kg curb weight (2,080 kg with support hook) for Long-Range Ultra-4WD, with a maximum gross mass of 2,565 kg. This resolves the earlier 2,115 kg / 1,940 kg conflict — the manual figure is authoritative, and the two database-derived numbers (2,115 kg from EV-spec databases, and the uncited 1,940 kg from a Gemini summary) are superseded.',
       },
       {
         label: 'Towing capacity',
         value: '1,500 kg braked / 750 kg unbraked',
+        note: 'Official manual: maximum towing mass 1,500 kg (braked) / 750 kg (unbraked); maximum tongue load 75 kg; 13-pin connector (ISO 11446:2004) and ECE R55 A-class tow-ball head. Trailer Mode is mandatory (enabled in P gear) when towing.',
       },
       {
         label: 'Braking distance (100–0 km/h)',
         value: '35.6 m (reported)',
         note:
-          'Single-source figure from the same ungrounded Gemini summary — no outlet has published an independent braking test yet, so treat as unverified.',
+          'Single-source figure from the same ungrounded Gemini summary — no outlet has published an independent braking test yet, and the official manual publishes no 100–0 stopping figure, so treat as unverified.',
       },
       {
         label: 'Drive modes',
-        value: 'ECO, Comfort, Sport, Individual, Snow, Slippery — plus Escape Mode on AWD',
-        note: 'Escape Mode manages per-wheel brake pressure and motor torque to free the car from mud, sand or snow',
+        value: 'Energy Saving, Comfort, Sport, Personalization',
+        note: 'Confirmed against the official manual (vehicle system V6.3.2): the four drive modes are Energy Saving, Comfort, Sport and Personalization, plus two special-surface modes — Snow Mode (ice/snow, wet muddy roads, grassland) and Wetland Mode (waterlogged, wet slippery asphalt, underground garages). The earlier "ECO / Individual / Slippery" naming is incorrect — "Individual" is called "Personalization", there is no "Slippery" mode (Snow + Wetland cover those surfaces), and there is no "Escape Mode" in the manual (per-wheel traction/torque management is handled by dTCS distributed traction control). AWD is automatic Timely 4WD.',
       },
       {
         label: 'Audio system',
@@ -271,12 +272,12 @@ export const research = {
       {
         label: 'Optional wheels',
         value: '20" Black Edition (Performance Ultra only)',
-        note: 'Adds black 20" wheels, black brake calipers and black exterior trim; standard wheels are 18"/20" depending on trim. Secondary source (xpeng.guru).',
+        note: 'Adds black 20" wheels, black brake calipers and black exterior trim; standard wheels are 18"/20" depending on trim. Secondary source (xpeng.guru). Official manual confirms the rim/tire specs: 18-inch rim with 225/60 R18 (18×7J), optional 20-inch 245/45R20 (20×8J); snow chains fit the rear wheels only, in pairs, at ≤50 km/h.',
       },
       {
         label: 'Battery cells',
         value: 'CALB-supplied LFP',
-        note: '71.2 kWh pack on the AWD Performance Ultra',
+        note: '71.2 kWh pack on the AWD Performance Ultra. Official manual confirms LFP cells (3.21 V rated voltage, 170.6 Ah rated capacity).',
       },
       {
         label: 'DC fast charging',
@@ -287,7 +288,7 @@ export const research = {
         label: 'Cargo & frunk volume',
         value: '367–539 L rear / 44–102 L frunk, depending on source',
         note:
-          'Wide spread across outlets, most likely reflecting different measurement conventions (VDA box method vs. fill-to-window liquid volume) rather than a real difference between cars — not fully reconciled.',
+          'Wide spread across outlets, most likely reflecting different measurement conventions (VDA box method vs. fill-to-window liquid volume) rather than a real difference between cars — not fully reconciled, and not published in the official manual.',
       },
       {
         label: 'Interior comfort',
@@ -301,7 +302,7 @@ export const research = {
       },
     ] satisfies ElectronicsFact[],
     caveat:
-      "Design and spec details above blend independently sourced reporting with a Gemini-generated summary that arrived without its own citations. Where the two disagree (curb weight, cargo/frunk volume), both figures are shown rather than picking a winner; single-source claims from the Gemini summary (braking distance, roof panel area) are flagged as such rather than stated as fact.",
+      "Design and spec details above blend independently sourced reporting with a Gemini-generated summary that arrived without its own citations. Where the official English user manual (vehicle system V6.3.2) settles a figure — curb weight, drive modes, towing capacity/tongue load, dimensions/gross mass, wheel specs, LFP cells — that value now stands as authoritative and supersedes the conflicting secondary/database numbers. Where sources disagree and the manual is silent (cargo/frunk volume), the figure is still treated as unreconciled; single-source claims the manual does not address (braking distance, roof panel area) are flagged as such rather than stated as fact.",
   },
 
   rumors: [
