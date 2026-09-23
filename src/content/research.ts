@@ -94,6 +94,22 @@ export const research = {
 
   news: [
     {
+      date: '23 Sep 2026',
+      headline: 'L03 launches in Australia & New Zealand — full pricing plus the PowerX range-extender',
+      summary:
+        "Xpeng revealed L03 pricing for Australia at a Gold Coast launch event: RWD Standard Range A$41,900, RWD Long Range A$46,900, AWD Performance Ultra A$53,900 — with a PowerX Long Range range-extender (EREV) at the same A$41,900 as the base EV. It's the first Xpeng model in Australia to use Kunpeng Range Extender technology, pairing a 37 kWh LFP battery with a 1.5-l petrol engine that acts purely as a generator — the wheels always driven by the electric motor. XNGP on VLA 2.0 (up to 2,250 TOPS across three Turing AI chips) is slated to roll out progressively from 2027. New Zealand mirrors the lineup at NZ$49,990 / NZ$54,990 / NZ$64,990, with the PowerX at NZ$49,990 — undercutting the Tesla Model Y RWD (NZ$67,900) while claiming more range (520 km WLTP vs 466 km). First arrivals expected in November, pending ADR approval.",
+      source: 'Carsales / CarExpert / Auto Trader NZ / Paultan (via Drive)',
+      url: 'https://www.carsales.com.au/editorial/details/xpeng-l03-launches-with-range-extender-option-153085/',
+    },
+    {
+      date: '22 Sep 2026',
+      headline: 'XOS 6.3.0 full rollout — with a distilled Lite VLA 2.0 for the Turing Max',
+      summary:
+        "Xpeng began fleet-wide rollout of XOS 6.3.0 on 22 Sep, centring on the physical-world foundation model now folding 'time' into its framework — shifting from static 3D spatial recognition to dynamic 4D space-time understanding. A Lite version of VLA 2.0 rolls out simultaneously to the single-Turing-Max model, distilled from the same high-end architecture via learned token compression so the foundation-model capability runs on lower-compute platforms. Chairman He Xiaopeng says the distilled Lite model is in mass production and, in real-world tests, sits in the top tier of domestic L2 systems. New features: nose-in/tail-out parking switching after a spot is chosen, voice-controlled parking exit, and cabin split-screen interaction plus CarPlay.",
+      source: 'Gasgoo (Munich)',
+      url: 'https://autonews.gasgoo.com/articles/news/xpeng-rolls-out-second-generation-vla-across-its-lineup-with-xos-630-lite-version-2102378269340286977',
+    },
+    {
       date: '2 Sep 2026',
       headline: 'Official NL pricing live — from €36,990',
       summary:
@@ -192,6 +208,78 @@ export const research = {
       price: 'From €38,600 (Germany)',
     },
     {
+      variant: 'AWD Performance Ultra',
+      market: 'Australia',
+      power: '285 kW / 388 hp, 431 Nm',
+      battery: '71.2 kWh LFP',
+      range: '440 km WLTP',
+      zeroToHundred: '4.5 s',
+      price: 'A$53,900',
+    },
+    {
+      variant: 'RWD Long Range',
+      market: 'Australia',
+      power: '245 hp / 183 kW, 280 Nm',
+      battery: '71.2 kWh LFP',
+      range: '520 km WLTP',
+      zeroToHundred: '—',
+      price: 'A$46,900',
+    },
+    {
+      variant: 'RWD Standard Range',
+      market: 'Australia',
+      power: '241 hp / 180 kW',
+      battery: '58.3 kWh LFP',
+      range: '445 km WLTP',
+      zeroToHundred: '—',
+      price: 'A$41,900',
+    },
+    {
+      variant: 'PowerX Long Range (EREV)',
+      market: 'Australia',
+      power: 'Electric motor + 1.5 L range extender (generator)',
+      battery: '37 kWh LFP + fuel tank',
+      range: '215 km EV / ~1,017 km combined',
+      zeroToHundred: '—',
+      price: 'A$41,900',
+    },
+    {
+      variant: 'AWD Performance Ultra',
+      market: 'New Zealand',
+      power: '285 kW / 388 hp, 431 Nm',
+      battery: '71.2 kWh LFP',
+      range: '440 km WLTP',
+      zeroToHundred: '4.5 s',
+      price: 'NZ$64,990',
+    },
+    {
+      variant: 'RWD Long Range',
+      market: 'New Zealand',
+      power: '245 hp / 183 kW, 280 Nm',
+      battery: '71.2 kWh LFP',
+      range: '520 km WLTP',
+      zeroToHundred: '—',
+      price: 'NZ$54,990',
+    },
+    {
+      variant: 'RWD Standard Range',
+      market: 'New Zealand',
+      power: '241 hp / 180 kW',
+      battery: '58.3 kWh LFP',
+      range: '445 km WLTP',
+      zeroToHundred: '—',
+      price: 'NZ$49,990',
+    },
+    {
+      variant: 'PowerX Long Range (EREV)',
+      market: 'New Zealand',
+      power: 'Electric motor + 1.5 L range extender (generator)',
+      battery: '37 kWh LFP + fuel tank',
+      range: '215 km EV / ~1,017 km combined',
+      zeroToHundred: '—',
+      price: 'NZ$49,990',
+    },
+    {
       variant: 'BEV (standard)',
       market: 'China',
       power: '183 kW / 245 hp, single motor RWD',
@@ -212,7 +300,7 @@ export const research = {
   ] satisfies SpecRow[],
 
   marketNote:
-    "AWD is currently a Europe-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so the AWD Performance Ultra trim isn't available to Chinese buyers.",
+    "The AWD Performance Ultra is now a Europe-, Australia- and New Zealand-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so it isn't available to Chinese buyers. Australia and New Zealand additionally get a PowerX range-extender (EREV) variant at parity pricing with the base EV (A$41,900 / NZ$49,990).",
 
   design: {
     headline:
@@ -391,7 +479,7 @@ export const research = {
         label: 'VLA 2.0 software update — v6.3.0',
         value: 'Rolling out to Ultra / Max trims, September 2026',
         note:
-          'Announced 30 Aug 2026. Adds "4D Perception" (Infini-VLA: unbounded historical timeline for decisions, ~30s practical working memory) and "X-Foresight" (predicts ~6s ahead, extendable to 21s for proactive reasoning), plus a conversational "Master Agent" voice control that drops the need for preset commands. Xpeng claims a 300% latency/response-speed improvement (via streaming inference) and a 20x safety improvement (via Flow-Matching path selection) — company-stated figures, not yet independently verified. Older dual-Orin cars get a reduced update later in 2026; L03 AWD Performance Ultra is covered by the Ultra/Max rollout.',
+          'Announced 30 Aug 2026. Adds "4D Perception" (Infini-VLA: unbounded historical timeline for decisions, ~30s practical working memory) and "X-Foresight" (predicts ~6s ahead, extendable to 21s for proactive reasoning), plus a conversational "Master Agent" voice control that drops the need for preset commands. Xpeng claims a 300% latency/response-speed improvement (via streaming inference) and a 20x safety improvement (via Flow-Matching path selection) — company-stated figures, not yet independently verified. Older dual-Orin cars get a reduced update later in 2026; L03 AWD Performance Ultra is covered by the Ultra/Max rollout. A 22 Sep 2026 follow-up (Gasgoo) adds a distilled "Lite" VLA 2.0 for the single-Turing-Max model — per chairman He Xiaopeng now in mass production and tested among the top tier of domestic L2 — plus nose-in/tail-out parking switching, voice-controlled parking exit, split-screen interaction and CarPlay. The upgrade marks the shift from static 3D spatial recognition to dynamic 4D space-time understanding by folding "time" into the foundation-model framework.',
       },
       {
         label: 'Sensor approach',
