@@ -94,6 +94,14 @@ export const research = {
 
   news: [
     {
+      date: '25 Sep 2026',
+      headline: 'Philippines launch — six variants across L03 and X9, L03 REEV aimed at the BYD Atto 3',
+      summary:
+        "Xpeng launched in the Philippines at the SM Mall of Asia Arena, Manila, on 25 Sep 2026, taking the wraps off six variants across the L03 and the X9. L03 pricing: EV Standard Range ₱1,548,000 (~US$24,700, 58.3 kWh / 445 km), L03 REEV ₱1,598,000 (37.2 kWh battery, 215 km EV / 1,017 km combined — positioned to match the BYD Atto 3), EV Long Range ₱1,698,000 (71.1 kWh / 520 km) and EV RWD Long Range Ultra ₱2,058,000 (three Turing AI chips, 2,250 TOPS). Cars run XOS 6.0, with deliveries slated for Q4 2026 from showrooms in Greenhills, Makati, North EDSA and Cebu. This launch supersedes the earlier Q3-2026 entry plan tracked below.",
+      source: 'CleanTechnica / ASTIG / GizGuide',
+      url: 'https://cleantechnica.com/2026/09/25/xpeng-launches-in-the-philippines-with-six-ev-variants/',
+    },
+    {
       date: '23 Sep 2026',
       headline: 'L03 launches in Australia & New Zealand — full pricing plus the PowerX range-extender',
       summary:
@@ -297,10 +305,46 @@ export const research = {
       zeroToHundred: '—',
       price: 'RMB 143,800–165,800 range',
     },
+    {
+      variant: 'RWD Long Range Ultra',
+      market: 'Philippines',
+      power: 'RWD, 3× Turing AI chips (2,250 TOPS)',
+      battery: '71.1 kWh',
+      range: '520 km',
+      zeroToHundred: '—',
+      price: '₱2,058,000',
+    },
+    {
+      variant: 'RWD Long Range',
+      market: 'Philippines',
+      power: 'RWD',
+      battery: '71.1 kWh',
+      range: '520 km',
+      zeroToHundred: '—',
+      price: '₱1,698,000',
+    },
+    {
+      variant: 'RWD Standard Range',
+      market: 'Philippines',
+      power: 'RWD',
+      battery: '58.3 kWh',
+      range: '445 km',
+      zeroToHundred: '—',
+      price: '₱1,548,000',
+    },
+    {
+      variant: 'REEV (range extender)',
+      market: 'Philippines',
+      power: 'Electric motor + range extender',
+      battery: '37.2 kWh + fuel tank',
+      range: '215 km EV / 1,017 km combined',
+      zeroToHundred: '—',
+      price: '₱1,598,000',
+    },
   ] satisfies SpecRow[],
 
   marketNote:
-    "The AWD Performance Ultra is now a Europe-, Australia- and New Zealand-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so it isn't available to Chinese buyers. Australia and New Zealand additionally get a PowerX range-extender (EREV) variant at parity pricing with the base EV (A$41,900 / NZ$49,990).",
+    "The AWD Performance Ultra is now a Europe-, Australia- and New Zealand-exclusive configuration — the China lineup ships single-motor RWD only (BEV or EREV), so it isn't available to Chinese buyers. Australia and New Zealand additionally get a PowerX range-extender (EREV) variant at parity pricing with the base EV (A$41,900 / NZ$49,990). The Philippines launch (25 Sep 2026) adds a further priced market, its lineup including the L03 REEV at ₱1,598,000.",
 
   design: {
     headline:
@@ -580,6 +624,9 @@ export const research = {
     { label: 'xpeng.com NL — Snel leverbaar (quick delivery) pricing', url: 'https://www.xpeng.com/nl/quick-delivery' },
     { label: 'Gasgoo — Mona L03 double-shift production', url: 'https://autonews.gasgoo.com/articles/news/xpeng-overcomes-chip-shortage-adopts-double-shifts-to-accelerate-mona-l03-capacity-2086717743847194625' },
     { label: 'xpeng.guru — L03 lineup page (secondary/cross-check tier)', url: 'https://xpeng.guru/lineup/xpeng-l03/' },
+    { label: 'CleanTechnica — XPeng launches in the Philippines', url: 'https://cleantechnica.com/2026/09/25/xpeng-launches-in-the-philippines-with-six-ev-variants/' },
+    { label: 'ASTIG — L03 PH launch prices, REEV', url: 'https://astig.ph/xpeng-l03-philippines-launch-prices-reev-byd-atto-3-2026/' },
+    { label: 'GizGuide — XPeng arrives in PH', url: 'https://www.gizguide.com/2026/09/xpeng-arrives-in-ph.html' },
   ] satisfies Source[],
 };
 
