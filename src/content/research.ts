@@ -573,7 +573,7 @@ export const research = {
         author: 'Larry Evans',
         kind: 'Ride-along',
         summary:
-          'Rode a Netherlands-spec L03 prototype on VLA 2.0 through Amsterdam, driven back-to-back against a Tesla Model 3 running FSD — reported as the first non-XPENG person to make that comparison. The Netherlands is the first European country to allow FSD; VLA 2.0's European public release is still slated for 2027. Part 1 of a CleanTechnica series.',
+          'Rode a Netherlands-spec L03 prototype on VLA 2.0 through Amsterdam, driven back-to-back against a Tesla Model 3 running FSD — reported as the first non-XPENG person to make that comparison. The Netherlands is the first European country to allow FSD; the European public release of VLA 2.0 is still slated for 2027. Part 1 of a CleanTechnica series.',
         url: 'https://cleantechnica.com/2026/09/28/xpeng-vla-2-0-vs-tesla-fsd-in-amsterdam-part-1-xpeng-l03/',
       },
       {
