@@ -1,31 +1,10 @@
 {
-  "generatedAt": "2026-09-28T07:03:18.959Z",
+  "generatedAt": "2026-09-29T07:11:08.541Z",
   "strips": [
     {
       "query": "xpeng l03",
       "label": "XPeng L03",
       "videos": [
-        {
-          "videoId": "yfg4Eyt_GOA",
-          "title": "All-New XPeng Mona L03: NEXT-LEVEL AI SUV Coupe! FULL TOUR",
-          "channelTitle": "CarForLife_Drive",
-          "thumbnailUrl": "https://i.ytimg.com/vi/yfg4Eyt_GOA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSLWHZRmJmMFvS3fXQusRo2DviEw",
-          "publishedText": "13d ago"
-        },
-        {
-          "videoId": "KYjS4z99G_U",
-          "title": "XPENG L03 Premiere: Pricing, Specs & EVERYTHING You Need to Know!",
-          "channelTitle": "Beyond EV",
-          "thumbnailUrl": "https://i.ytimg.com/vi/KYjS4z99G_U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDc0lAhy9oxqmHu2MRCpwCKO-qU1g",
-          "publishedText": "3d ago"
-        },
-        {
-          "videoId": "1TWaBjNGbC4",
-          "title": "XPeng L03 Launches in Australia, and BYD Should Be Worried",
-          "channelTitle": "SNAP GLOBALSHIFT and Banned Vault",
-          "thumbnailUrl": "https://i.ytimg.com/vi/1TWaBjNGbC4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbqCSNcLq3ZBOieYvtDJDJHQ-jIA",
-          "publishedText": "13h ago"
-        },
         {
           "videoId": "ieFVRLClg2E",
           "title": "Xpeng L03 Dynamic Review: All Look and No Good?",
@@ -34,24 +13,38 @@
           "publishedText": "1mo ago"
         },
         {
-          "videoId": "MCXyA1nKOJE",
-          "title": "Why Buying the Leapmotor C10 Over the Xpeng L03 Might Be a Mistake!",
-          "channelTitle": "EV MarketPulse",
-          "thumbnailUrl": "https://i.ytimg.com/vi/MCXyA1nKOJE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTV0iKtBSJQmbU4FKlvRPLTHnm0w",
-          "publishedText": "15h ago"
+          "videoId": "VwII333AP7g",
+          "title": "VLA 2.0 vs. FSD in Amsterdam Part 1: XPENG L03",
+          "channelTitle": "Larry Evans",
+          "thumbnailUrl": "https://i.ytimg.com/vi/VwII333AP7g/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIE0oTDAP&rs=AOn4CLCzPl-lE1B6jFkCr9MzjwZ_1fTcYQ",
+          "publishedText": "1d ago"
         },
         {
-          "videoId": "SPrgE5bAMv8",
-          "title": "XPeng L03 Review & VLA 2.0 First Test — The World-Exclusive European Drive",
-          "channelTitle": "It's Only Electric",
-          "thumbnailUrl": "https://i.ytimg.com/vi/SPrgE5bAMv8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg18pDbGsgFJcdm-xuKa6NJnbMVQ",
-          "publishedText": "2mo ago"
+          "videoId": "yfg4Eyt_GOA",
+          "title": "All-New XPeng Mona L03: NEXT-LEVEL AI SUV Coupe! FULL TOUR",
+          "channelTitle": "CarForLife_Drive",
+          "thumbnailUrl": "https://i.ytimg.com/vi/yfg4Eyt_GOA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSLWHZRmJmMFvS3fXQusRo2DviEw",
+          "publishedText": "2w ago"
+        },
+        {
+          "videoId": "V9t5LpjSgrw",
+          "title": "XPENG L03 (2026): Ridiculous value for money - FIRST DRIVE! – AutoRAI TV",
+          "channelTitle": "AutoRAI TV",
+          "thumbnailUrl": "https://i.ytimg.com/vi/V9t5LpjSgrw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhleNE5YBXHsFHbknED6k-BzfqNQ",
+          "publishedText": "17h ago"
         },
         {
           "videoId": "uoLlhlHy0b4",
           "title": "XPeng’s New L03 could be the best EV/REEV on sale in Australia",
           "channelTitle": "Driving Enthusiast",
           "thumbnailUrl": "https://i.ytimg.com/vi/uoLlhlHy0b4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7RnYGYtCPKFdLVKGxXzEO8FkPww",
+          "publishedText": "5d ago"
+        },
+        {
+          "videoId": "KYjS4z99G_U",
+          "title": "XPENG L03 Premiere: Pricing, Specs & EVERYTHING You Need to Know!",
+          "channelTitle": "Beyond EV",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KYjS4z99G_U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDc0lAhy9oxqmHu2MRCpwCKO-qU1g",
           "publishedText": "4d ago"
         },
         {
@@ -60,6 +53,13 @@
           "channelTitle": "Autogefühl",
           "thumbnailUrl": "https://i.ytimg.com/vi/NLFfTLOWM0k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAn_feZwFIkor5-a1BjFfjQUWBhww",
           "publishedText": "2mo ago"
+        },
+        {
+          "videoId": "UMFdSEklT1s",
+          "title": "All New Xpeng Mona L03 Ultra 2027 Luxury Crossover SUV EV ",
+          "channelTitle": "AutoShow TV",
+          "thumbnailUrl": "https://i.ytimg.com/vi/UMFdSEklT1s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDM7gyzv8UD5hWwSpYee0NfJ9t2Pw",
+          "publishedText": "18h ago"
         }
       ]
     },
@@ -92,8 +92,8 @@
           "videoId": "VwII333AP7g",
           "title": "VLA 2.0 vs. FSD in Amsterdam Part 1: XPENG L03",
           "channelTitle": "Larry Evans",
-          "thumbnailUrl": "https://i.ytimg.com/vi/VwII333AP7g/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEcoRjAP&rs=AOn4CLDaew4-eUBN2Mda0h5DMLmQqhxlIA",
-          "publishedText": "2h ago"
+          "thumbnailUrl": "https://i.ytimg.com/vi/VwII333AP7g/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIE0oTDAP&rs=AOn4CLCzPl-lE1B6jFkCr9MzjwZ_1fTcYQ",
+          "publishedText": "1d ago"
         },
         {
           "videoId": "9oGUOMJ0u6g",
@@ -103,13 +103,6 @@
           "publishedText": "3w ago"
         },
         {
-          "videoId": "A4bh9sgPrcA",
-          "title": "China Self Driving vs US Self Driving - Stunned!",
-          "channelTitle": "Kim Java",
-          "thumbnailUrl": "https://i.ytimg.com/vi/A4bh9sgPrcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdu_Z9RcFhkz0j6irXNCGclvOgEQ",
-          "publishedText": "4mo ago"
-        },
-        {
           "videoId": "1ehLvMLdSkQ",
           "title": "Over 180 Global Medias Attended XPENG VLA 2 0 Turing Test",
           "channelTitle": "XPENG",
@@ -117,11 +110,18 @@
           "publishedText": "4mo ago"
         },
         {
-          "videoId": "KVWhl5bBBLg",
-          "title": "FSD From China driving in Europe - XPENG VLA 2.0 full 30 minutes TEST DRIVE!",
-          "channelTitle": "Artur's Tech Tales",
-          "thumbnailUrl": "https://i.ytimg.com/vi/KVWhl5bBBLg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-xFrW5ynoYfJG2SxICk0ksEOtxw",
-          "publishedText": "2mo ago"
+          "videoId": "A4bh9sgPrcA",
+          "title": "China Self Driving vs US Self Driving - Stunned!",
+          "channelTitle": "Kim Java",
+          "thumbnailUrl": "https://i.ytimg.com/vi/A4bh9sgPrcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdu_Z9RcFhkz0j6irXNCGclvOgEQ",
+          "publishedText": "4mo ago"
+        },
+        {
+          "videoId": "v-xpRJIireY",
+          "title": "XPeng VLA 2.0  — Suddenly a Horse Appears!",
+          "channelTitle": "XpengXpev",
+          "thumbnailUrl": "https://i.ytimg.com/vi/v-xpRJIireY/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhYIGUoZDAP&rs=AOn4CLCD7v5adFtGZPl-1r2aywXuxYrwWw",
+          "publishedText": "6mo ago"
         }
       ]
     }
