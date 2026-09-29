@@ -94,6 +94,14 @@ export const research = {
 
   news: [
     {
+      date: '28 Sep 2026',
+      headline: 'First back-to-back VLA 2.0 vs. Tesla FSD comparison — in Amsterdam',
+      summary:
+        "CleanTechnica's Larry Evans rode a Netherlands-spec L03 prototype running XNGP on VLA 2.0 through Amsterdam back-to-back against a Tesla Model 3 on FSD — reported as the first non-XPENG person to make that comparison (session 11 Sep, embargoed until 28 Sep). The Netherlands is the first European country to permit Tesla FSD; VLA 2.0's European public release remains slated for 2027. Part 1 of a series, Part 2 expected.",
+      source: 'CleanTechnica',
+      url: 'https://cleantechnica.com/2026/09/28/xpeng-vla-2-0-vs-tesla-fsd-in-amsterdam-part-1-xpeng-l03/',
+    },
+    {
       date: '25 Sep 2026',
       headline: 'Philippines launch — six variants across L03 and X9, L03 REEV aimed at the BYD Atto 3',
       summary:
@@ -560,6 +568,15 @@ export const research = {
       "The L03 is weeks old in most markets, so most published pieces are launch previews rather than extended road tests. A handful of outlets have done actual test drives or ride-alongs — real-world range testing hasn't been published yet.",
     items: [
       {
+        date: '28 Sep 2026',
+        outlet: 'CleanTechnica',
+        author: 'Larry Evans',
+        kind: 'Ride-along',
+        summary:
+          'Rode a Netherlands-spec L03 prototype on VLA 2.0 through Amsterdam, driven back-to-back against a Tesla Model 3 running FSD — reported as the first non-XPENG person to make that comparison. The Netherlands is the first European country to allow FSD; VLA 2.0's European public release is still slated for 2027. Part 1 of a CleanTechnica series.',
+        url: 'https://cleantechnica.com/2026/09/28/xpeng-vla-2-0-vs-tesla-fsd-in-amsterdam-part-1-xpeng-l03/',
+      },
+      {
         date: '17 Aug 2026',
         outlet: 'Top Gear Philippines',
         author: 'Billy Caluag',
@@ -627,6 +644,7 @@ export const research = {
     { label: 'CleanTechnica — XPeng launches in the Philippines', url: 'https://cleantechnica.com/2026/09/25/xpeng-launches-in-the-philippines-with-six-ev-variants/' },
     { label: 'ASTIG — L03 PH launch prices, REEV', url: 'https://astig.ph/xpeng-l03-philippines-launch-prices-reev-byd-atto-3-2026/' },
     { label: 'GizGuide — XPeng arrives in PH', url: 'https://www.gizguide.com/2026/09/xpeng-arrives-in-ph.html' },
+    { label: 'CleanTechnica — VLA 2.0 vs Tesla FSD in Amsterdam', url: 'https://cleantechnica.com/2026/09/28/xpeng-vla-2-0-vs-tesla-fsd-in-amsterdam-part-1-xpeng-l03/' },
   ] satisfies Source[],
 };
 
