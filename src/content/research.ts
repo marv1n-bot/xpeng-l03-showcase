@@ -55,7 +55,7 @@ export interface ReviewItem {
 }
 
 export const research = {
-  updated: 'September 2026',
+  updated: 'October 2026',
   heroImage: {
     src: '/images/xpeng-l03-research-hero-street.jpg',
     alt: 'Xpeng L03 low-angle front three-quarter view on a sunny street, purple colorway',
@@ -69,6 +69,11 @@ export const research = {
     headline:
       'Reception has been strong on price and order volume, especially in Europe where the L03 undercuts the Tesla Model Y.',
     points: [
+      {
+        label: 'L03 monthly deliveries (Sep 2026)',
+        value: '10,000+',
+        note: 'First month above 10,000 — still China-only; overseas L03 deliveries only begin Q4 2026',
+      },
       {
         label: 'China orders',
         value: '50,000+',
@@ -93,6 +98,38 @@ export const research = {
   },
 
   news: [
+    {
+      date: '2 Oct 2026',
+      headline: 'German dealer promo — L03 RWD SR from €34,416 with 6% house discount',
+      summary:
+        "Dealer-level offer (Gröditzer Autohaus): a 6% house discount puts the L03 RWD Standard Range at €34,416 including transfer, with 0.99% financing (the 0% offer ended end-September), valid to 31 Oct 2026; quoted delivery 6–8 months. A single-dealer promotion, not Xpeng manufacturer pricing.",
+      source: 'mydealz (dealer listing)',
+      url: 'https://www.mydealz.de/deals/xpeng-l03-mit-6-rabatt-ab-34416-eur-inkl-uberfuhrung-099-finanzierung-forderfahig-2847115',
+    },
+    {
+      date: '1 Oct 2026',
+      headline: 'L03 monthly deliveries pass 10,000 for the first time',
+      summary:
+        "XPENG's September figures show Mona L03 deliveries topping 10,000 in a month for the first time, within total September deliveries of 41,256 (+5% MoM, −0.8% YoY — its best month of 2026) and Q3 deliveries of 118,390 (+15% QoQ). The company says overseas L03 deliveries start in Q4 2026 and guides overseas volumes above 40,000 per quarter.",
+      source: 'XPENG / PRNewswire / CnEVPost / eletric-vehicles',
+      url: 'https://www.prnewswire.com/news-releases/xpeng-announces-vehicle-delivery-results-for-september-and-third-quarter-2026-302895410.html',
+    },
+    {
+      date: '1 Oct 2026',
+      headline: 'Germany — Xpeng signs Emil Frey Deutschland as dealer partner',
+      summary:
+        "Xpeng signed Emil Frey Deutschland effective 1 Oct 2026, adding Hessengarage (Frankfurt) and Schwabengarage (Pforzheim) and targeting around 110 German sites by year-end, with the L03 arriving \"in a few weeks.\" Context: Xpeng's German registrations for Jan–Aug 2026 were 5,773 (+257.7% YoY) against a 2026 target of about 8,000.",
+      source: 'Xpeng Newsroom DE / kfz-betrieb / eletric-vehicles',
+      url: 'https://xpeng-newsroom.pr.co/de-DE/272689-xpeng-bildet-handelspartnerschaft-mit-emil-frey-deutschland/',
+    },
+    {
+      date: '30 Sep 2026',
+      headline: 'Paris Motor Show — public NGP test-rides, in the official Autonomous Lab alongside Tesla',
+      summary:
+        "At the Paris Motor Show (12–18 Oct), the L03 will offer public NGP test-rides, and Xpeng and Tesla are the only two automakers in the show's official Autonomous Lab — Xpeng's first large-scale overseas NGP ride experience (Tesla brings six Model 3 on FSD Supervised; Xpeng two L03 on NGP). The G9L global launch and European order book / pricing open on 12 Oct.",
+      source: 'XPENG official / Automotive World / eletric-vehicles',
+      url: 'https://www.automotiveworld.com/news/xpeng-to-open-g9l-orders-in-europe-at-paris-motor-show/',
+    },
     {
       date: '28 Sep 2026',
       headline: 'First back-to-back VLA 2.0 vs. Tesla FSD comparison — in Amsterdam',
@@ -467,7 +504,7 @@ export const research = {
     {
       title: 'Three circulating NL retail-price claims did not hold up',
       detail:
-        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact. Note: as of 2 Sep 2026 xpeng.com confirms only the €36,990 starting price; a secondary Dutch outlet (e-drivers.com) is now citing the same four-trim ladder in (2) as current NL pricing, which conflicts with its earlier debunked status — not corroborated elsewhere, so the debunked verdict stands pending confirmation from an official source.',
+        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact. Note: as of 2 Sep 2026 xpeng.com confirms only the €36,990 starting price; a secondary Dutch outlet (e-drivers.com) is now citing the same four-trim ladder in (2) as current NL pricing, which conflicts with its earlier debunked status — not corroborated elsewhere, so the debunked verdict stands pending confirmation from an official source. (Updated 2 Oct 2026: the official NL configurator now shows the RWD Standard Range at €34,990 — the first rung of ladder (2) — so the picture is less clear-cut, but it remains unconfirmed pending broader official pricing and the debunked verdict still stands for the other figures.)',
       confidence: 'Debunked',
     },
     {
@@ -609,6 +646,9 @@ export const research = {
   },
 
   sources: [
+    { label: 'PRNewswire — XPENG September & Q3 2026 deliveries', url: 'https://www.prnewswire.com/news-releases/xpeng-announces-vehicle-delivery-results-for-september-and-third-quarter-2026-302895410.html' },
+    { label: 'Automotive World — G9L European orders at Paris Motor Show', url: 'https://www.automotiveworld.com/news/xpeng-to-open-g9l-orders-in-europe-at-paris-motor-show/' },
+    { label: 'Xpeng Newsroom DE — Emil Frey Deutschland partnership', url: 'https://xpeng-newsroom.pr.co/de-DE/272689-xpeng-bildet-handelspartnerschaft-mit-emil-frey-deutschland/' },
     { label: 'CnEVPost', url: 'https://cnevpost.com/2026/07/16/xpeng-launches-mona-l03/' },
     { label: 'CarNewsChina', url: 'https://carnewschina.com/2026/07/16/xpeng-l03-launches-in-europe-at-40740-usd-to-fight-for-market-share/' },
     { label: 'paultan.org', url: 'https://paultan.org/2026/07/17/xpeng-l03-launched-in-europe/' },
