@@ -72,7 +72,7 @@ export const research = {
       {
         label: 'L03 monthly deliveries (Sep 2026)',
         value: '10,000+',
-        note: 'First month above 10,000 — still China-only; overseas L03 deliveries only begin Q4 2026',
+        note: 'First month above 10,000 — still China-only; overseas L03 deliveries only begin Q4 2026. The official MONA account put September L03 deliveries above 14,000 on 2 Oct — higher than the results-PR implication; China-only, single-source.',
       },
       {
         label: 'China orders',
@@ -98,6 +98,14 @@ export const research = {
   },
 
   news: [
+    {
+      date: '2 Oct 2026',
+      headline: 'Official MONA account: L03 September deliveries exceeded 14,000',
+      summary:
+        "The official MONA social account put September L03 deliveries above 14,000 — higher than the 10,000+ implied by XPENG's 1 Oct results release. It also shared order-structure data: roughly 98% of buyers choose Max/Ultra SE trims (per He Xiaopeng), over 95% are VLA 2.0 trims, assisted-driving mileage has passed 700 million km, and one in five trade-ins comes from a BBA (BMW/Benz/Audi) owner. China-only, single-source (Weibo/Sina), with no direct EU/NL read-through.",
+      source: 'MONA official (Weibo/Sina)',
+      url: 'https://www.sina.cn/weibo/detail/5349579314955715.html',
+    },
     {
       date: '2 Oct 2026',
       headline: 'German dealer promo — L03 RWD SR from €34,416 with 6% house discount',
@@ -126,7 +134,7 @@ export const research = {
       date: '30 Sep 2026',
       headline: 'Paris Motor Show — public NGP test-rides, in the official Autonomous Lab alongside Tesla',
       summary:
-        "At the Paris Motor Show (12–18 Oct), the L03 will offer public NGP test-rides, and Xpeng and Tesla are the only two automakers in the show's official Autonomous Lab — Xpeng's first large-scale overseas NGP ride experience (Tesla brings six Model 3 on FSD Supervised; Xpeng two L03 on NGP). The G9L global launch and European order book / pricing open on 12 Oct.",
+        "At the Paris Motor Show (12–18 Oct), the L03 will offer public NGP test-rides, and Xpeng and Tesla are the only two automakers in the show's official Autonomous Lab — Xpeng's first large-scale overseas NGP ride experience (Tesla brings six Model 3 on FSD Supervised; Xpeng two L03 on NGP). The G9L global launch and European order book / pricing open on 12 Oct. A 1 Oct XPENG release tied to the same show adds that the L03 \"is preparing to begin its first deliveries to European customers,\" and that XPENG has now passed 60,000 cumulative deliveries in Europe.",
       source: 'XPENG official / Automotive World / eletric-vehicles',
       url: 'https://www.automotiveworld.com/news/xpeng-to-open-g9l-orders-in-europe-at-paris-motor-show/',
     },
@@ -605,6 +613,15 @@ export const research = {
       "The L03 is weeks old in most markets, so most published pieces are launch previews rather than extended road tests. A handful of outlets have done actual test drives or ride-alongs — real-world range testing hasn't been published yet.",
     items: [
       {
+        date: '1 Oct 2026',
+        outlet: 'AutoRAI',
+        author: 'AutoRAI (via headlines24)',
+        kind: 'Hands-on test drive',
+        summary:
+          "First Dutch-language L03 first-drive impression (\"Eerste rij-indruk Xpeng L03 (2026)\") — a real drive review rather than launch-event coverage, though it adds no new price or launch-date facts. Headline verdict: \"belachelijk veel auto voor je geld\" (absurdly much car for your money).",
+        url: 'https://www.headlines24.nl/nieuwsartikel/617979/202610/eerste-rij-indruk-xpeng-l03-(2026):-belachelijk-veel-auto-voor-je-geld!',
+      },
+      {
         date: '28 Sep 2026',
         outlet: 'CleanTechnica',
         author: 'Larry Evans',
@@ -646,6 +663,9 @@ export const research = {
   },
 
   sources: [
+    { label: 'XPENG press release — Paris Motor Show / first EU L03 deliveries (1 Oct)', url: 'https://www.xpeng.com/news/01a0f7644454a0e70a9e8a02823600e0' },
+    { label: 'AutoRAI — first-drive impression (via headlines24)', url: 'https://www.headlines24.nl/nieuwsartikel/617979/202610/eerste-rij-indruk-xpeng-l03-(2026):-belachelijk-veel-auto-voor-je-geld!' },
+    { label: 'MONA official — September delivery figure (Weibo/Sina)', url: 'https://www.sina.cn/weibo/detail/5349579314955715.html' },
     { label: 'PRNewswire — XPENG September & Q3 2026 deliveries', url: 'https://www.prnewswire.com/news-releases/xpeng-announces-vehicle-delivery-results-for-september-and-third-quarter-2026-302895410.html' },
     { label: 'Automotive World — G9L European orders at Paris Motor Show', url: 'https://www.automotiveworld.com/news/xpeng-to-open-g9l-orders-in-europe-at-paris-motor-show/' },
     { label: 'Xpeng Newsroom DE — Emil Frey Deutschland partnership', url: 'https://xpeng-newsroom.pr.co/de-DE/272689-xpeng-bildet-handelspartnerschaft-mit-emil-frey-deutschland/' },
