@@ -99,6 +99,22 @@ export const research = {
 
   news: [
     {
+      date: '3 Oct 2026',
+      headline: 'France — first L03 deliveries begin, the first concrete EU delivery-phase signal',
+      summary:
+        "French dealers started receiving L03 stock this week, moving the car from orders (opened 16 Jul) into the delivery phase Xpeng had guided for “early October.” Pricing restated across the range at €34,990 / €37,990 / €42,990 / €46,990. Single-source so far (Macarel), but consistent with Xpeng’s own “first deliveries to European customers” line tied to the Paris Motor Show. France is the first EU market to reach handover; the NL configurator is still unchanged.",
+      source: 'Macarel (FR)',
+      url: 'https://www.macarel.fr/xpeng-commence-a-livrer-son-l03-en-france-un-suv-electrique-a-partir-de-34-990-euros/',
+    },
+    {
+      date: '2 Oct 2026',
+      headline: 'Thailand — L03 priced ฿899,000–1,189,000, first deliveries by end-October',
+      summary:
+        "Thai pricing now confirmed across three variants at ฿899,000–1,189,000, with first deliveries by end-October 2026 — filling in the price ladder the August launch entry left out.",
+      source: 'Lanta News (TH)',
+      url: 'https://lanta.news/articles/new-xpeng-l03-899-000',
+    },
+    {
       date: '2 Oct 2026',
       headline: 'Official MONA account: L03 September deliveries exceeded 14,000',
       summary:
@@ -705,6 +721,8 @@ export const research = {
     { label: 'ASTIG — L03 PH launch prices, REEV', url: 'https://astig.ph/xpeng-l03-philippines-launch-prices-reev-byd-atto-3-2026/' },
     { label: 'GizGuide — XPeng arrives in PH', url: 'https://www.gizguide.com/2026/09/xpeng-arrives-in-ph.html' },
     { label: 'CleanTechnica — VLA 2.0 vs Tesla FSD in Amsterdam', url: 'https://cleantechnica.com/2026/09/28/xpeng-vla-2-0-vs-tesla-fsd-in-amsterdam-part-1-xpeng-l03/' },
+    { label: 'Macarel — Xpeng begins L03 deliveries in France, 3 Oct 2026', url: 'https://www.macarel.fr/xpeng-commence-a-livrer-son-l03-en-france-un-suv-electrique-a-partir-de-34-990-euros/' },
+    { label: 'Lanta News — L03 Thailand pricing, 899,000–1,189,000 baht, 2 Oct 2026', url: 'https://lanta.news/articles/new-xpeng-l03-899-000' },
   ] satisfies Source[],
 };
 
