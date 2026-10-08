@@ -629,6 +629,24 @@ export const research = {
       "The L03 is weeks old in most markets, so most published pieces are launch previews rather than extended road tests. A handful of outlets have done actual test drives or ride-alongs — real-world range testing hasn't been published yet.",
     items: [
       {
+        date: '7 Oct 2026',
+        outlet: 'Auto Express',
+        author: 'Auto Express',
+        kind: 'Hands-on test drive',
+        summary:
+          "UK first drive of the L03 at Xpeng's Basel press event: \"a capable but forgettable electric SUV.\" Adds a UK-market signal — order books open November, estimated from ~£33,000 — across a four-model UK line-up (RWD Standard, RWD Long Range, Long Range Ultra, AWD Performance), with the AWD Performance estimated around £40,000. Notes no Euro NCAP score yet.",
+        url: 'https://www.autoexpress.co.uk/xpeng/370605/',
+      },
+      {
+        date: '7 Oct 2026',
+        outlet: 'What Car?',
+        author: 'What Car?',
+        kind: 'Hands-on test drive',
+        summary:
+          "UK review from the same Basel press drive. No confirmed UK prices or specs yet, no Euro NCAP rating, and the UK dealer network is still unclear — early coverage rather than a verdict, but another established UK outlet on the car ahead of a 2027 UK launch.",
+        url: 'https://www.whatcar.com/xpeng/l03/suv/review',
+      },
+      {
         date: '1 Oct 2026',
         outlet: 'AutoRAI',
         author: 'AutoRAI (via headlines24)',
@@ -723,6 +741,8 @@ export const research = {
     { label: 'CleanTechnica — VLA 2.0 vs Tesla FSD in Amsterdam', url: 'https://cleantechnica.com/2026/09/28/xpeng-vla-2-0-vs-tesla-fsd-in-amsterdam-part-1-xpeng-l03/' },
     { label: 'Macarel — Xpeng begins L03 deliveries in France, 3 Oct 2026', url: 'https://www.macarel.fr/xpeng-commence-a-livrer-son-l03-en-france-un-suv-electrique-a-partir-de-34-990-euros/' },
     { label: 'Lanta News — L03 Thailand pricing, 899,000–1,189,000 baht, 2 Oct 2026', url: 'https://lanta.news/articles/new-xpeng-l03-899-000' },
+    { label: 'Auto Express (UK) — XPeng L03 review, 7 Oct 2026', url: 'https://www.autoexpress.co.uk/xpeng/370605/' },
+    { label: 'What Car? (UK) — XPeng L03 review, 7 Oct 2026', url: 'https://www.whatcar.com/xpeng/l03/suv/review' },
   ] satisfies Source[],
 };
 
