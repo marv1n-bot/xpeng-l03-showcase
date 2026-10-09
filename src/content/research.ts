@@ -99,6 +99,14 @@ export const research = {
 
   news: [
     {
+      date: '8 Oct 2026',
+      headline: 'Germany — L03 AWD Performance (388hp) private-lease deal at €415/month',
+      summary:
+        "German leasing broker sparneuwagen.de lists the L03 AWD Performance (388hp) on private lease at €415/month over 48 months and 10,000 km/year (Hackerott) — a concrete German private-lease datapoint as the L03 enters the EU delivery phase.",
+      source: 'sparneuwagen.de (DE)',
+      url: 'https://www.sparneuwagen.de/xpeng-l03-awd-performance-leasing-178023/',
+    },
+    {
       date: '3 Oct 2026',
       headline: 'France — first L03 deliveries begin, the first concrete EU delivery-phase signal',
       summary:
@@ -629,6 +637,33 @@ export const research = {
       "The L03 is weeks old in most markets, so most published pieces are launch previews rather than extended road tests. A handful of outlets have done actual test drives or ride-alongs — real-world range testing hasn't been published yet.",
     items: [
       {
+        date: '8 Oct 2026',
+        outlet: 'AutoWeek (NL)',
+        author: 'AutoWeek',
+        kind: 'Hands-on test drive',
+        summary:
+          "Full Dutch test of the L03: \"more than complete\" and hard to fault, scoring 4/5. Positions it around €7,000 cheaper than the G6 and squarely in the Skoda Elroq / Kia EV3 segment.",
+        url: 'https://www.autoweek.nl/autotests/artikel/de-meer-dan-complete-xpeng-l03-is-maar-moeilijk-op-fouten-te-betrappen/',
+      },
+      {
+        date: '8 Oct 2026',
+        outlet: 'De Telegraaf (NL)',
+        author: 'De Telegraaf',
+        kind: 'Hands-on test drive',
+        summary:
+          "Dutch review: \"offers a lot for €35,000, but don't take the €5,000 AI option yet.\" Criticizes the current Xpilot (poor sign reading and lane behaviour), notes EU self-driving approval is still missing, and finds the AI voice assistant underwhelming.",
+        url: 'https://www.telegraaf.nl/lifestyle/onderweg/xpeng-l03-biedt-veel-voor-35.000-euro-maar-kies-deze-ai-optie-van-5.000-euro-nog-niet/162759724.html',
+      },
+      {
+        date: '8 Oct 2026',
+        outlet: 'Bright.nl (NL)',
+        author: 'Bright.nl',
+        kind: 'Hands-on test drive',
+        summary:
+          "Video review from a two-day, three-country drive in the 387hp AWD Performance: strong value that puts European EVs under pressure, though the full AI/self-driving feature set still needs Brussels approval.",
+        url: 'https://www.bright.nl/videos/2144560/review-xpeng-l03-zet-europese-elektrische-auto-s-onder-druk-met-bizarre-prijs.html',
+      },
+      {
         date: '7 Oct 2026',
         outlet: 'Auto Express',
         author: 'Auto Express',
@@ -743,6 +778,10 @@ export const research = {
     { label: 'Lanta News — L03 Thailand pricing, 899,000–1,189,000 baht, 2 Oct 2026', url: 'https://lanta.news/articles/new-xpeng-l03-899-000' },
     { label: 'Auto Express (UK) — XPeng L03 review, 7 Oct 2026', url: 'https://www.autoexpress.co.uk/xpeng/370605/' },
     { label: 'What Car? (UK) — XPeng L03 review, 7 Oct 2026', url: 'https://www.whatcar.com/xpeng/l03/suv/review' },
+    { label: 'AutoWeek (NL) — XPeng L03 full test, 8 Oct 2026', url: 'https://www.autoweek.nl/autotests/artikel/de-meer-dan-complete-xpeng-l03-is-maar-moeilijk-op-fouten-te-betrappen/' },
+    { label: 'De Telegraaf (NL) — L03 review, 8 Oct 2026', url: 'https://www.telegraaf.nl/lifestyle/onderweg/xpeng-l03-biedt-veel-voor-35.000-euro-maar-kies-deze-ai-optie-van-5.000-euro-nog-niet/162759724.html' },
+    { label: 'Bright.nl (NL) — L03 video review, 8 Oct 2026', url: 'https://www.bright.nl/videos/2144560/review-xpeng-l03-zet-europese-elektrische-auto-s-onder-druk-met-bizarre-prijs.html' },
+    { label: 'sparneuwagen.de — L03 AWD Performance private lease, 8 Oct 2026', url: 'https://www.sparneuwagen.de/xpeng-l03-awd-performance-leasing-178023/' },
   ] satisfies Source[],
 };
 
