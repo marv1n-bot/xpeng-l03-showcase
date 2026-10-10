@@ -536,7 +536,7 @@ export const research = {
     {
       title: 'Three circulating NL retail-price claims did not hold up',
       detail:
-        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact. Note: as of 2 Sep 2026 xpeng.com confirms only the €36,990 starting price; a secondary Dutch outlet (e-drivers.com) is now citing the same four-trim ladder in (2) as current NL pricing, which conflicts with its earlier debunked status — not corroborated elsewhere, so the debunked verdict stands pending confirmation from an official source. (Updated 2 Oct 2026: the official NL configurator now shows the RWD Standard Range at €34,990 — the first rung of ladder (2) — so the picture is less clear-cut, but it remains unconfirmed pending broader official pricing and the debunked verdict still stands for the other figures.)',
+        'Three specific NL price figures have circulated but failed verification as of Sep 2026: (1) €42,990 incl. VAT / €41,677 fiscal value for the AWD Performance trim; (2) a four-trim price ladder of €34,990 / €37,990 / €40,990 / €45,990; (3) a claim that only the Performance Ultra trim gets a dual-chip NGP setup — contradicted by the real per-trim tiering (Max 1 chip, Ultra SE 2 chips, Ultra AWD 3 chips) in the Electronics section below. None of these three are confirmed Xpeng figures — listed here as debunked, not as fact. Note: as of 2 Sep 2026 xpeng.com confirms only the €36,990 starting price; a secondary Dutch outlet (e-drivers.com) is now citing the same four-trim ladder in (2) as current NL pricing, which conflicts with its earlier debunked status — not corroborated elsewhere, so the debunked verdict stands pending confirmation from an official source. (Updated 2 Oct 2026: the official NL configurator now shows the RWD Standard Range at €34,990 — the first rung of ladder (2) — so the picture is less clear-cut, but it remains unconfirmed pending broader official pricing and the debunked verdict still stands for the other figures. Updated 8–9 Oct 2026: a fresh check reports the NL configurator now listing the full four-trim ladder — €34,990 / €37,990 / €40,990 / €45,990 — matching claim (2) exactly; if corroborated this would upgrade that ladder from debunked to official, but it remains a single-source report and the configurator is JS-rendered (not verifiable from raw HTML), so the verdict stands pending independent confirmation.)',
       confidence: 'Debunked',
     },
     {
@@ -682,6 +682,69 @@ export const research = {
         url: 'https://www.whatcar.com/xpeng/l03/suv/review',
       },
       {
+        date: '9 Oct 2026',
+        outlet: 'EVPowered (UK)',
+        author: 'Matt Allan',
+        kind: 'Hands-on test drive',
+        summary:
+          "UK review of the L03: \"competent but not compelling,\" scored 3/5. Praises the value and standard equipment but finds the driving experience and cabin don't stand out against the established competition.",
+        url: 'https://evpowered.co.uk/electric-car-reviews/xpeng-l03/',
+      },
+      {
+        date: '8 Oct 2026',
+        outlet: 'AutoTrader (UK)',
+        author: 'AutoTrader',
+        kind: 'Hands-on test drive',
+        summary:
+          "UK review scoring the L03 3/5 — a solid, well-equipped and keenly priced electric SUV, but without the polish or driver appeal to top its class.",
+        url: 'https://www.autotrader.co.uk/content/car-reviews/xpeng-l03-review-2026',
+      },
+      {
+        date: '8 Oct 2026',
+        outlet: 'CompleteCar.ie (IE)',
+        author: 'Matt Robinson',
+        kind: 'Hands-on test drive',
+        summary:
+          "Irish review of the L03 from the European press drive — another established outlet covering the car ahead of its EU rollout, alongside the UK and Dutch first drives published the same week.",
+        url: 'https://www.completecar.ie/xpeng-l03-review.html',
+      },
+      {
+        date: '8 Oct 2026',
+        outlet: 'AutoTech Plus',
+        author: 'AutoTech Plus',
+        kind: 'Launch preview (no drive)',
+        summary:
+          "Expert-rating piece on the L03 ahead of a UK launch targeted for spring 2027 — early coverage rather than a road test.",
+        url: 'https://autotech-plus.com/xpeng-l03-2027-onwards-expert-rating/',
+      },
+      {
+        date: '7 Oct 2026',
+        outlet: 'Autocar (UK)',
+        author: 'Sam Sheehan',
+        kind: 'Hands-on test drive',
+        summary:
+          "UK first drive from the Basel press event. Quotes UK pricing signals of roughly £33,000 entry rising to about £42,000 as-tested for the range-topper, consistent with the other UK outlets' 7 Oct coverage.",
+        url: 'https://www.autocar.co.uk/car-review/xpeng/l03',
+      },
+      {
+        date: '7 Oct 2026',
+        outlet: 'ElectricDrives.tv',
+        author: 'Theo Binns',
+        kind: 'Hands-on test drive',
+        summary:
+          "Review framing the L03 as an electric SUV-coupe that \"punches above its price,\" citing a European price band of roughly €35,000–€45,000.",
+        url: 'https://electricdrives.tv/xpeng-l03-review-electric-suv-coupe-punches-above-its-price/',
+      },
+      {
+        date: '7 Oct 2026',
+        outlet: 'Mobilsiden.dk (DK)',
+        author: 'Mobilsiden.dk',
+        kind: 'Hands-on test drive',
+        summary:
+          "Danish review calling the L03 \"næsten for god til at være sand\" (almost too good to be true), citing a Danish start price of 239,995 kr.",
+        url: 'https://mobilsiden.dk/nyheder/opkoblede-biler/test-af-elbiler/xpeng-l03/',
+      },
+      {
         date: '1 Oct 2026',
         outlet: 'AutoRAI',
         author: 'AutoRAI (via headlines24)',
@@ -782,6 +845,13 @@ export const research = {
     { label: 'De Telegraaf (NL) — L03 review, 8 Oct 2026', url: 'https://www.telegraaf.nl/lifestyle/onderweg/xpeng-l03-biedt-veel-voor-35.000-euro-maar-kies-deze-ai-optie-van-5.000-euro-nog-niet/162759724.html' },
     { label: 'Bright.nl (NL) — L03 video review, 8 Oct 2026', url: 'https://www.bright.nl/videos/2144560/review-xpeng-l03-zet-europese-elektrische-auto-s-onder-druk-met-bizarre-prijs.html' },
     { label: 'sparneuwagen.de — L03 AWD Performance private lease, 8 Oct 2026', url: 'https://www.sparneuwagen.de/xpeng-l03-awd-performance-leasing-178023/' },
+    { label: 'Autocar (UK) — XPeng L03 review, 7 Oct 2026', url: 'https://www.autocar.co.uk/car-review/xpeng/l03' },
+    { label: 'AutoTrader (UK) — XPeng L03 review, 8 Oct 2026', url: 'https://www.autotrader.co.uk/content/car-reviews/xpeng-l03-review-2026' },
+    { label: 'EVPowered (UK) — XPeng L03 review, 9 Oct 2026', url: 'https://evpowered.co.uk/electric-car-reviews/xpeng-l03/' },
+    { label: 'CompleteCar.ie — XPeng L03 review, 8 Oct 2026', url: 'https://www.completecar.ie/xpeng-l03-review.html' },
+    { label: 'ElectricDrives.tv — XPeng L03 review, 7 Oct 2026', url: 'https://electricdrives.tv/xpeng-l03-review-electric-suv-coupe-punches-above-its-price/' },
+    { label: 'AutoTech Plus — XPeng L03 expert rating, 8 Oct 2026', url: 'https://autotech-plus.com/xpeng-l03-2027-onwards-expert-rating/' },
+    { label: 'Mobilsiden.dk (DK) — XPeng L03 review, 7 Oct 2026', url: 'https://mobilsiden.dk/nyheder/opkoblede-biler/test-af-elbiler/xpeng-l03/' },
   ] satisfies Source[],
 };
 
