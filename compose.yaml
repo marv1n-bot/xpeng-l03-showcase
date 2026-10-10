@@ -1,0 +1,13 @@
+services:
+  xpeng-l03-showcase:
+    build: .
+    container_name: xpeng-l03-showcase
+    restart: unless-stopped
+    networks:
+      - proxy-net
+    expose:
+      - "3000"
+
+networks:
+  proxy-net:
+    external: true
