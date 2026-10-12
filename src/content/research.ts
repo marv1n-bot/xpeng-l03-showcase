@@ -75,6 +75,12 @@ export const research = {
         note: 'First month above 10,000 — still China-only; overseas L03 deliveries only begin Q4 2026. The official MONA account put September L03 deliveries above 14,000 on 2 Oct — higher than the results-PR implication; China-only, single-source.',
       },
       {
+        label: 'European orders (by 11 Oct 2026)',
+        value: '12,136',
+        note: 'Xpeng CEO He Xiaopeng, at a Paris media event — in under three months since the July launch. European customer deliveries had still not begun at that point.',
+      },
+
+      {
         label: 'China orders',
         value: '50,000+',
         note: 'Non-cancellable pre-orders reported by dealers within weeks of the July 16 launch',
@@ -98,6 +104,30 @@ export const research = {
   },
 
   news: [
+    {
+      date: '11 Oct 2026',
+      headline: 'L03 passes 12,000 European orders — deliveries still not started',
+      summary:
+        "At a Paris media event, Xpeng CEO He Xiaopeng said the L03 has drawn 12,136 orders in Europe in under three months since the July launch — and confirmed European customer deliveries have NOT yet begun (Xpeng's German arm had said on 2 Oct the car reaches dealers 'this month'; a 30 Sep Xpeng statement said it was 'preparing to begin its first deliveries'). Dealer stock arriving (see the 3 Oct France entry) is not yet customer handover.",
+      source: 'eletric-vehicles.com',
+      url: 'https://eletric-vehicles.com/xpeng/xpeng-says-l03-suv-has-drawn-over-12000-orders-in-europe-since-july-launch/',
+    },
+    {
+      date: '11 Oct 2026',
+      headline: 'Paris event — new NGP/VLA 2.0 claims (30s memory, 6s look-ahead, 20x safety)',
+      summary:
+        "Same Paris event: Xpeng says its 'Physical World Foundation Model' gives NGP 30 seconds of memory and 6 seconds of look-ahead simulation, and that VLA v2 delivers a claimed 20x improvement in 'comprehensive safety'. Marketing claims, not independently verified; European activation of the NGP/VLA 2.0 capability remains guided for Q1 2027.",
+      source: 'eletric-vehicles.com',
+      url: 'https://eletric-vehicles.com/xpeng/xpeng-says-l03-suv-has-drawn-over-12000-orders-in-europe-since-july-launch/',
+    },
+    {
+      date: '11 Oct 2026',
+      headline: 'Per-country NGP re-tuning — ~2 weeks, ~1/10,000th the training data',
+      summary:
+        "Xpeng's head of general intelligence Liu Xianming says the NGP stack can be re-tuned country-by-country in roughly two weeks using only about 1/10,000th the training-data volume — ahead of the Paris Motor Show. A claim about rollout speed, not a change to the Q1 2027 EU activation timeline.",
+      source: 'headliner.nl (Telegraaf/agency)',
+      url: 'https://www.headliner.nl/artikelen/xpeng-past-rijassistentiesysteem-europa-fractie-trainingsdata-195300',
+    },
     {
       date: '8 Oct 2026',
       headline: 'Germany — L03 AWD Performance (388hp) private-lease deal at €415/month',
